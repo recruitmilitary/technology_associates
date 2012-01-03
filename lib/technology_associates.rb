@@ -14,28 +14,14 @@ module TechnologyAssociates
     BASE_URL = 'https://taic.silkroad.com/epostings/'
 
     def self.all
-      uri = URI.parse(BASE_URL + 'index.cfm?fuseaction=app.jobsearch')
-
-      request = Net::HTTP::Post.new(uri.path + "?" + uri.query)
-
-      request.set_form_data('company_id'     => '16053',
-                            'version'        => '1',
-                            'tosearch'       => 'yes',
-                            'keywords'       => '',
-                            'byBusinessUnit' => 'NULL',
-                            'bycountry'      => '0',
-                            'bystate'        => '0')
-
-      http = Net::HTTP.new(uri.host, uri.port)
-
-      if (uri.port == 443) # ssl?
-        http.use_ssl = true
-        http.verify_mode = OpenSSL::SSL::VERIFY_PEER
-      end
-
-      response = http.request(request)
-
-      document = Nokogiri::HTML(response.body)
+      document = post(BASE_URL + 'index.cfm?fuseaction=app.jobsearch',
+           'company_id'     => '16053',
+           'version'        => '1',
+           'tosearch'       => 'yes',
+           'keywords'       => '',
+           'byBusinessUnit' => 'NULL',
+           'bycountry'      => '0',
+           'bystate'        => '0')
 
       jobs = []
 
@@ -60,19 +46,42 @@ module TechnologyAssociates
       jobs
     end
 
-    def description
+    def self.post(url, attributes)
+      request(:post, url, attributes)
+    end
+
+    def self.get(url)
+      request(:get, url)
+    end
+
+    def self.request(method, url, attributes = {})
       uri = URI.parse(url)
-      request = Net::HTTP::Get.new(uri.path + "?" + uri.query)
+
+      case method
+      when :get
+        request = Net::HTTP::Get.new(uri.path + "?" + uri.query)
+      when :post
+        request = Net::HTTP::Post.new(uri.path + "?" + uri.query)
+        request.set_form_data(attributes)
+      else
+        raise "Unknown http method: #{method}"
+      end
+
       http = Net::HTTP.new(uri.host, uri.port)
 
       if (uri.port == 443) # ssl?
         http.use_ssl = true
         http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+        http.ca_path = ::TechnologyAssociates.ca_path if ::TechnologyAssociates.ca_path
       end
 
       response = http.request(request)
 
-      document = Nokogiri::HTML(response.body)
+      Nokogiri::HTML(response.body)
+    end
+
+    def description
+      document = self.class.get(url)
 
       document.at("dl dd#jobDesciptionDiv").to_s
     end
