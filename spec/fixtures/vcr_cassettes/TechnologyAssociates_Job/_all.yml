@@ -1,0 +1,2955 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: https://taic.silkroad.com:443/epostings/index.cfm?fuseaction=app.jobsearch
+    body: bycountry=0&tosearch=yes&bystate=0&version=1&byBusinessUnit=NULL&company_id=16053&keywords=
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      x-powered-by: 
+      - ASP.NET
+      p3p: 
+      - policyref="/w3c/p3p.xml",CP="NOI CURa ADMa DEVa TAIa IVAa IVDa OUR NOR BUS UNI COM NAV INT"
+      content-type: 
+      - text/html; charset=utf-8
+      content-language: 
+      - en-US
+      server: 
+      - Microsoft-IIS/6.0
+      date: 
+      - Tue, 03 Jan 2012 20:40:12 GMT
+      set-cookie: 
+      - BIGipServer=HsyP4Kd/rmxtH+Bhx/gyGHyUVjLggf0oZ56/8QiCM46Q57EVJJ7GxB8QKhquAMK4rDhQG9c75FPW53o=; path=/
+      - CENTRALSERVER=srtsql02;path=/
+      - CFID=10169525;path=/
+      - CFTOKEN=12a2e0dbb8a23249%2DA54CF5E2%2D155D%2D007F%2D1734AABF52A4447B;path=/
+      - COMPANYID=16053;path=/
+      - JSESSIONID=7030eb12d35bdd4f3c5319493d543b281960;path=/
+    body: "\r\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\
+      <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n \r\n\
+      <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n\
+      <head>\r\n\
+      \t<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\r\n\
+      \t\r\n\
+      \t<title>Careers / TAIC</title>\r\n\
+      \t\r\n\
+      <style>\r\n\
+      /*-------------------------------------------------------\r\n   RESET\r\n\
+      -------------------------------------------------------*/\r\n\
+      html, body, div, span, applet, object, iframe,\r\n\
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,\r\n\
+      a, abbr, acronym, address, big, cite, code,\r\n\
+      del, dfn, font, img, ins, kbd, q, s, samp,\r\n\
+      small, strike, sub, sup, tt, var,\r\n\
+      dl, dt, dd, ol, ul, li,\r\n\
+      fieldset, form, label, legend,\r\n\
+      table, caption, tbody, tfoot, thead, tr, th, td {\r\n\
+      \tmargin: 0;\r\n\
+      \tpadding: 0;\r\n\
+      \tborder: 0;\r\n\
+      \toutline: 0;\r\n\
+      \tfont-weight: inherit;\r\n\
+      \tfont-style: inherit;\r\n\
+      \tfont-size: 100%;\r\n\
+      \tfont-family: inherit;\r\n\
+      \tvertical-align: baseline;\r\n\
+      }\r\n\
+      \r\n\
+      /* remember to define focus styles! */\r\n\
+      :focus {\r\n\
+      \toutline: 0;\r\n\
+      }\r\n\
+      \r\n\
+      body {\r\n\
+      \tline-height: 1;\r\n\
+      \tcolor: black;\r\n\
+      \tbackground: white;\r\n\
+      }\r\n\
+      \r\n\
+      ol, ul {\r\n\
+      \tlist-style: none;\r\n\
+      }\r\n\
+      \r\n\
+      /* tables still need 'cellspacing=\"0\"' in the markup */\r\n\
+      table {\r\n\
+      \tborder-collapse: separate;\r\n\
+      \tborder-spacing: 0;\r\n\
+      }\r\n\
+      \r\n\
+      caption, th, td {\r\n\
+      \ttext-align: left;\r\n\
+      \tfont-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      blockquote:before, blockquote:after,\r\n\
+      q:before, q:after {\r\n\
+      \tcontent: \"\";\r\n\
+      }\r\n\
+      \r\n\
+      blockquote, q {\r\n\
+      \tquotes: \"\" \"\";\r\n\
+      }\r\n\
+      \r\n\
+      .clear {\r\n   clear: both;\r\n\
+      }\r\n\
+      \r\n\
+      /* -----------------------------------------------------\r\n   Corp style.css\r\n   // COLOUR INDEX\r\n   #6ba3e3 - mainnav rollover / sidenav rollover / inline links\r\n   #d5d5d5 - footer rollover\r\n   #5d5d5d - body copy\r\n\
+      -------------------------------------------------------*/\r\n\
+      \r\n\
+      /*\r\n   BODY\r\n\
+      -------------------------------------------------------*/\r\n\
+      body {\r\n   text-align: center;\r\n   background: #FFF url(/epostings/clients/16053/images/corp_bg-body.jpg) repeat-x top left;\r\n   font-size: 12px;\r\n   font-family: \"Lucida Grande\", \"Lucida Sans Unicode\", Trebuchet, Arial, sans-serif;\r\n   color: #5d5d5d;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   CLEARFIX\r\n\
+      -------------------------------------------------------*/\r\n\
+      .clearfix:after {\r\n    content: \".\"; \r\n    display: block; \r\n    height: 0; \r\n    clear: both; \r\n    visibility: hidden;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   TYPOGRAPHY and BASIC ELEMENTS\r\n\
+      -------------------------------------------------------*/\r\n\
+      /* headings */\r\n\
+      h2, h3, h4, h5, h6 {\r\n   font-weight: normal;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      h1 {\r\n\
+      \ttext-indent: -9999px;\r\n\
+      }\r\n\
+      \r\n\
+      h2 {\r\n   color: #6ba3e3; \r\n   font-size: 24px;\r\n\
+      }\r\n\
+      \r\n\
+      div.header2 {\r\n\
+      \tcolor: #6ba3e3; \r\n\
+      \tfont-size: 24px;\r\n\
+      }\r\n\
+      div.headerBG {\r\n\
+      \tcolor: #6ba3e3; \r\n\
+      \tfont-size: 48px;\r\n\
+      }\r\n\
+      \r\n\
+      h3 {\r\n   color: #5d5d5d;\r\n   font-size: 14px;\r\n   font-weight: bold;\r\n   padding-bottom: 5px;\r\n\
+      }\r\n\
+      \r\n   .news-mini-entry h3 {\r\n      font-size: 12px;\r\n   }\r\n   \r\n   h3.alt {\r\n      color: #6ba3e3;\r\n   }\r\n   \r\n\
+      h4 {\r\n   color: #5d5d5d;\r\n   font-size: 12px;\r\n   font-weight: bold;\r\n   padding-bottom: 5px;\r\n\
+      }\r\n\
+      \r\n\
+      h5 {\r\n   color: #6ba3e3;\r\n   font-size: 12px;\r\n   font-weight: bold;\r\n   padding-bottom: 5px;\r\n\
+      }\r\n\
+      \r\n\
+      h6 {\r\n   color: #6ba3e3; \r\n   font-size: 12px;\r\n\
+      }\r\n\
+      \r\n\
+      /* paragraphs etc. */\r\n\
+      p {\r\n   line-height: 1.5;\r\n   padding-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      \tp.left {\r\n\
+      \t   text-align: left;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.right {\r\n\
+      \t   text-align: right;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.center {\r\n\
+      \t   text-align: center;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.date {\r\n      font-size: 10px;\r\n      padding-bottom: 0;\r\n   }\r\n   \r\n      p.date-below {\r\n         font-size: 10px;\r\n         padding-bottom: 10px;\r\n      }\r\n      \r\n      p.date-below span {\r\n         padding-left: 15px;\r\n         margin-left: 5px;\r\n      }\r\n\
+      \t\r\n\
+      \tp.news-archive {\r\n\
+      \t   padding: 0 0 10px;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.feature-light {\r\n\
+      \t\tcolor: #FFF;\r\n\
+      \t}\r\n\
+      \r\n\
+      big {\r\n   font-size: 120%;\r\n\
+      }\r\n\
+      \r\n\
+      small {\r\n   font-size: 80%;\r\n\
+      }\r\n\
+      \r\n\
+      strong, b {\r\n   font-weight: bold;\r\n\
+      }\r\n\
+      \r\n\
+      em, i {\r\n   font-style: italic;\r\n\
+      }\r\n\
+      \r\n\
+      blockquote {\r\n   padding: 0 20px;\r\n\
+      }\r\n\
+      \r\n\
+      /* lists - usually have to put #content in front */\r\n\
+      #content ul {\r\n   line-height: 1.5;\r\n   list-style: none;\r\n   margin-left: 0;\r\n   padding-left: 0;\r\n   padding-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      #content ul ul {\r\n   padding-bottom: 0;\r\n\
+      }\r\n\
+      \r\n\
+      #content ul li {\r\n   background: url(/epostings/clients/16053/images/bg-subnav.gif) no-repeat 0 3px;\r\n   padding-left: 15px;\r\n\
+      }\r\n\
+      \r\n\
+      #content ol {\r\n   line-height: 1.5;\r\n   list-style: decimal outside;\r\n   margin-left: 36px;\r\n   padding-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      #content ol ol {\r\n   padding-bottom: 0;\r\n\
+      }\r\n\
+      \r\n\
+      /* links */\r\n\
+      a, a:visited {\r\n   text-decoration: none;\r\n   font-weight: bold;\r\n   color: #6ba3e3;\r\n\
+      }\r\n\
+      \r\n\
+      a:hover {\r\n   text-decoration: underline;\r\n\
+      }\r\n\
+      \r\n\
+      a.taics {\r\n   display: block;\r\n   width: 300px;\r\n   height: 76px;\r\n   text-indent: -9999px;\r\n   position: absolute;\r\n   top: 32px;\r\n   right: 29px;\r\n   background: url(/epostings/clients/16053/images/corp_taics-logo.png) no-repeat top left;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      /* images */\r\n\
+      img.left {\r\n\
+      \tfloat: left;\r\n\
+      \tmargin-right: 10px;\r\n\
+      \tmargin-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      img.right {\r\n   float: right;\r\n   margin-left: 10px;\r\n   margin-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      img.center {\r\n\
+      \tmargin: 0 auto 20px;\r\n\
+      \tdisplay: block;\r\n\
+      }\r\n\
+      \r\n\
+      img.border {\r\n   padding: 5px;\r\n   border: 1px solid #d6d6d6;\r\n\
+      }\r\n\
+      \r\n\
+      /* horizontal rule */\r\n\
+      hr {\r\n\
+      \tcolor: #eee;\r\n\
+      \tbackground-color: #eee;\r\n\
+      \tborder: 0;\r\n\
+      \theight: 1px;\r\n\
+      }\r\n\
+      \r\n\
+      /* tables */\r\n\
+      table {\r\n   margin-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      /* forms */\r\n\
+      form {\r\n   margin-bottom: 20px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #contact_form input.txt,\r\n\
+      #contact_form textarea {\r\n   width: 300px;\r\n   border: 1px solid #9d9d9d;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      fieldset {\r\n   \r\n\
+      }\r\n\
+      \r\n\
+      legend {\r\n   \r\n\
+      }\r\n\
+      \r\n\
+      #comment_form label {\r\n   float: left;\r\n   width: 60px;\r\n   clear:both;\r\n\
+      }\r\n\
+      \r\n\
+      input.comment-txt {\r\n   border: 1px solid #9d9d9d;\r\n   width: 250px;\r\n\
+      }\r\n\
+      \r\n\
+      textarea.comment-area {\r\n   border: 1px solid #9d9d9d;\r\n   width: 538px;\r\n   height: 200px;\r\n\
+      }\r\n\
+      \r\n\
+      .error, .required {\r\n   color: #AC1A1E;\r\n\
+      }\r\n\
+      \r\n\
+      .form-subscribe {\r\n   float: right;\r\n   margin-top: -20px;\r\n\
+      }\r\n\
+      \r\n\
+      .subscribe-link {\r\n   position: absolute;\r\n   top: 0;\r\n   right: 50px;\r\n\
+      }\r\n\
+      \r\n\
+      .form-subscribe img, .subscribe-link img {\r\n   vertical-align: middle;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      /*\r\n   CONTAINER / 970px\r\n\
+      -------------------------------------------------------*/\r\n\
+      #container {\r\n   width: 970px;\r\n   margin: 0 auto;\r\n   text-align: left;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   BRANDING\r\n\
+      -------------------------------------------------------*/\r\n\
+      #branding {\r\n\
+      \tfloat: left;\r\n\
+      \twidth: 970px;\r\n\
+      \theight: 144px;\r\n\
+      \tposition: relative;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   MAINNAV\r\n   See mainnav.css\r\n\
+      -------------------------------------------------------*/\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      /*\r\n   CONTENT\r\n\
+      -------------------------------------------------------*/\r\n\
+      #content {\r\n   float: left;\r\n\
+      \twidth: 970px;\r\n\
+      \tbackground: url(/epostings/clients/16053/images/bg-content.png) no-repeat 0 0;\r\n\
+      }\r\n\
+      #content_full {\r\n   float: left;\r\n\
+      \twidth: 970px;\r\n\
+      \tbackground: url(/epostings/clients/16053/images/bg-content_full.png) no-repeat 0 0;\r\n\
+      }\r\n\
+      \r\n\
+      .vert_div {\r\n\
+      \tborder-left: 1px #eeeeee solid;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      #home #content {\r\n   background: none;\r\n   padding: 0;\r\n\
+      }\r\n\
+      \r\n\
+      .edit {\r\n   padding: 10px;\r\n   text-align: right;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n\
+      \r\n\
+      \r\n\
+      /*\r\n   BREADCRUMB\r\n\
+      -------------------------------------------------------*/\r\n\
+      #breadcrumb {\r\n   float: left;\r\n   width: 560px;\r\n   height: 20px;\r\n   padding: 37px 50px 10px 360px;\r\n   font-size: 11px;\r\n\
+      }\r\n\
+      \r\n\
+      #breadcrumb a {\r\n   font-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      #breadcrumb_full {\r\n   float: left;\r\n   width: 560px;\r\n   height: 20px;\r\n   padding: 37px 40px 10px 60px;\r\n   font-size: 11px;\r\n\
+      }\r\n\
+      #breadcrumb_full a {\r\n   font-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   COL-1\r\n\
+      -------------------------------------------------------*/\r\n\
+      #col-1 {\r\n   float: left;\r\n   width: 250px;\r\n   padding: 0 50px 0 60px;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      #home #col-1 {\r\n\
+      \twidth: 550px;\r\n\
+      \tpadding: 0 0 0 60px;\r\n\
+      \tz-index:100;\r\n\
+      }\r\n\
+      #col-full {\r\n   float: left;\r\n   width: 875px;\r\n   padding: 0 50px 0 60px;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   SUBNAV\r\n\
+      -------------------------------------------------------*/\r\n\
+      #subnav {\r\n   padding-bottom: 100px;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav ul {\r\n   list-style: none;\r\n   margin-left: 0;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav ul ul {\r\n   margin-left: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav ul ul ul {\r\n   margin-left: 10px;\r\n\
+      }\r\n\
+      \r\n\
+      #content #subnav li {\r\n   padding: 3px 0;\r\n   background: none;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav li a,  #subnav li.here li a {\r\n   font-weight: normal;\r\n   color: #5d5d5d;\r\n   padding-right: 20px;\r\n   background: none;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav li a:hover, #subnav li.here a, #subnav li.here li a:hover {\r\n   color: #6ba3e3;\r\n   text-decoration: none;\r\n   background: url(/epostings/clients/16053/images/bg-subnav.gif) no-repeat right 50%;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   COL-2\r\n\
+      -------------------------------------------------------*/\r\n\
+      #col-2 {\r\n   float: left;\r\n   width: 550px;\r\n   padding: 0 50px 0 0;\r\n   position: relative;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      #home #col-2 {\r\n\
+      \twidth: 250px;\r\n\
+      \tpadding: 0 60px 0 50px;\r\n\
+      \tz-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      .entry {\r\n   float: left;\r\n   width: 550px;\r\n   padding-top: 5px;\r\n\
+      }\r\n\
+      \r\n\
+      .col-a {\r\n   float: left;\r\n   width: 175px;\r\n\
+      }\r\n\
+      \r\n\
+      .col-b {\r\n   float: left;\r\n   width: 375px;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   FOOTER\r\n\
+      -------------------------------------------------------*/\r\n\
+      #footer {\r\n   float: left;\r\n   width: 832px;\r\n   padding: 20px 60px;\r\n   margin: 0 9px;\r\n   border-top: 1px solid #d3d3d3;\r\n   font-size: 10px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #footer strong {\r\n   color: #000;\r\n   font-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      #footer .esri {\r\n   position: absolute;\r\n   top: 22px;\r\n   right: 192px;\r\n\
+      }\r\n\
+      \r\n\
+      #footer .ibm {\r\n   position: absolute;\r\n   top: 22px;\r\n   right: 60px;\r\n\
+      }\r\n\
+      \r\n\
+      /*   Corporate Header Navigation\r\n\
+      -------------------------------------------------------*/\r\n\
+      \r\n\
+      .corp_nav_links {\r\n\
+      \tfont-family:Arial, Helvetica, sans-serif;\r\n\
+      \tfont-size:14px;\r\n\
+      \tfont-weight:bold;\r\n\
+      \tpadding-right:15px;\r\n\
+      \tpadding-top:6px;\r\n\
+      \tpadding-left:25px;\r\n\
+      \tcolor:#9bbadd;\r\n\
+      }\r\n\
+      \r\n\
+      #pad {\r\n\
+      \theight:140px;\r\n\
+      }\r\n\
+      #menu {\r\n\
+      \tpadding:0;\r\n\
+      \tpadding-left:40px;\r\n\
+      \tmargin:0;\r\n\
+      \tlist-style:none;\r\n\
+      \theight:25px;\r\n\
+      \tposition:absolute;\r\n\
+      \tz-index:1000;\r\n\
+      \tfont-family:arial, verdana, sans-serif;\r\n\
+      \tfont-size:12px;\r\n\
+      }\r\n\
+      #menu li {\r\n\
+      \tfloat:left;\r\n\
+      \tmargin-right:1px;\r\n\
+      \tborder-right:#000 1px solid;\r\n\
+      }\r\n\
+      #menu li a {\r\n\
+      \tdisplay:block;\r\n\
+      \tfloat:left;\r\n\
+      \theight:25px;\r\n\
+      \tline-height:25px;\r\n\
+      \tcolor:#fff;\r\n\
+      \ttext-decoration:none;\r\n\
+      \tfont-size:12px;\r\n\
+      \tfont-weight:bold;\r\n\
+      \tpadding:0 15px 0 15px;\r\n\
+      }\r\n\
+      #menu table {\r\n\
+      \tborder-collapse:collapse;\r\n\
+      \twidth:0; height:0;\r\n\
+      \tposition:absolute;\r\n\
+      \ttop:0;\r\n\
+      \tleft:0;\r\n\
+      }\r\n\
+      \r\n\
+      /* Default link styling */\r\n\
+      /* Style the list OR link hover. Depends on which browser is used */\r\n\
+      \r\n\
+      #menu li a:hover {\r\n\
+      \tz-index:500;\r\n\
+      \tposition:relative;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu li:hover {\r\n\
+      \tposition:relative;\r\n\
+      \tz-index:500;\r\n\
+      }\r\n\
+      #menu li:hover > a {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu li:hover > a.sub {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu li.current a {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu li a.sub {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu li.current a.sub {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu :hover ul {\r\n\
+      \tleft:0;\r\n\
+      \ttop:25px;\r\n\
+      \twidth:325px;\r\n\
+      }\r\n\
+      \r\n\
+      /* keep the 'next' level invisible by placing it off screen. */\r\n\
+      #menu ul, \r\n\
+      #menu :hover ul ul {\r\n\
+      \tposition:absolute;\r\n\
+      \tleft:-9999px;\r\n\
+      \ttop:-9999px;\r\n\
+      \twidth:0;\r\n\
+      \theight:0;\r\n\
+      \tmargin:0;\r\n\
+      \tpadding:0;\r\n\
+      \tlist-style:none;\r\n\
+      }\r\n\
+      #menu :hover ul :hover ul {\r\n\
+      \tleft:120px;\r\n\
+      \ttop:-1px;\r\n\
+      \tbackground:#6091c9;\r\n\
+      \twhite-space:nowrap;\r\n\
+      \twidth:325px;\r\n\
+      \tz-index:1000;\r\n\
+      \theight:auto;\r\n\
+      }\r\n\
+      #menu :hover ul li {\r\n\
+      \tmargin:0;\r\n\
+      \tpadding-top:1px;\r\n\
+      }\r\n\
+      #menu :hover ul li a {\r\n\
+      \twidth:325px;\r\n\
+      \tpadding:0;\r\n\
+      \ttext-indent:10px;\r\n\
+      \tbackground:#6091c9;\r\n\
+      \tcolor:#fff;\r\n\
+      \theight:25px;\r\n\
+      \tline-height:25px;\r\n\
+      }\r\n\
+      #menu :hover ul li a.fly {\r\n\
+      \tbackground:#6091c9;\r\n\
+      }\r\n\
+      #menu :hover ul :hover {\r\n\
+      \tbackground-color:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul :hover a.fly {\r\n\
+      \tbackground-color:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul li.currentsub a {\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul li.currentsub a.fly {\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu :hover ul :hover ul li a {\r\n\
+      \twidth:325px;\r\n\
+      \tpadding:0;\r\n\
+      \ttext-indent:10px;\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul :hover ul :hover {\r\n\
+      \tbackground-color:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu :hover ul :hover ul li.currentfly a,\r\n\
+      #menu :hover ul :hover ul li.currentfly a:hover {\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   DIAGNOSTICS\r\n\
+      -------------------------------------------------------*/\r\n\
+      /*  \r\n\
+      img[alt=\"\"] {border: 3px dotted red;}\r\n\
+      \r\n\
+      a[href=\"#\"] {background: lime;}\r\n\
+      a[href=\"\"] {background: fuchsia;}\r\n\
+      */\r\n\
+      \r\n\
+      /* -----------------------------------------------------\r\n\
+      Main Nav Css\r\n\
+      ------------------------------------------------------*/\r\n\
+      \r\n\
+      #tabnav {\r\n   float: left;\r\n   width: 970px;\r\n   height: 35px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #tabnav ul {\r\n   width: 750px;\r\n   height: 18px;\r\n   margin-left: 20px;\r\n   margin-top: 9px;\r\n   float: left;\r\n\
+      }\r\n\
+      \r\n\
+      #tabnav li {\r\n   float: left;\r\n   font-family:Arial, Helvetica, sans-serif;\r\n   text-decoration:none;\r\n   font-size:12px;\r\n   height: 25px;\r\n   color:#FFF;\r\n   background-color:#000;\r\n   background: url(/epostings/clients/16053/images/tabnav_bkgd.jpg) repeat-x;\r\n   border-right:#000 2px solid;\r\n\
+      }\r\n\
+      \r\n\
+      #tabnav li a {\r\n   display: block;\r\n   color:#FFF;\r\n   text-decoration:none;\r\n   padding-top:4px;\r\n   padding-left:6px;\r\n   padding-right:8px;\r\n   padding-bottom:8px;\r\n   margin-top:3px;\r\n\
+      }\r\n\
+      #tabnav li a:hover {\r\n   display: block;\r\n   color:#9bbadd;\r\n   padding-top:4px;\r\n   padding-left:6px;\r\n   padding-right:8px;\r\n   padding-bottom:8px;\r\n   text-decoration:none;\r\n   margin-top:3px;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n\
+      \r\n\
+      MAIN NAVIGATION\r\n\
+      -------------------------------------------------------*/\r\n\
+      #mainnav {\r\n   float: left;\r\n   width: 970px;\r\n   height: 35px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #mainnav ul {\r\n   width: 686px;\r\n   height: 35px;\r\n   margin-left: 60px;\r\n   float: left;\r\n\
+      }\r\n\
+      \r\n\
+      #mainnav li {\r\n   float: left;\r\n\
+      }\r\n\
+      \r\n\
+      #mainnav li a {\r\n   display: block;\r\n   height: 35px;\r\n   padding: 0 0 0 7px;\r\n   text-indent: -9999px;\r\n\
+      }\r\n\
+      </style>\r\n\
+      \r\n\
+      <script language=\"JavaScript\" type=\"text/javascript\">\r\n\
+      //DHill - Creates the 'Click' event in FireFox\r\n\
+      if(typeof HTMLElement!='undefined'&&!HTMLElement.prototype.click)\r\n\
+      \tHTMLElement.prototype.click=function()\r\n\
+      \t{\r\n\
+      \t\tvar evt = this.ownerDocument.createEvent('MouseEvents');\r\n\
+      \t\tevt.initMouseEvent('click', true, true, this.ownerDocument.defaultView, 1, 0, 0, 0, 0, false, false, false, false, 0, null);\r\n\
+      \t\tthis.dispatchEvent(evt);\r\n\
+      \t}\r\n\
+      \r\n\
+      //DHill - Event Loader\r\n\
+      function addLoadEvent(MyFunction)\r\n\
+      {\r\n\
+      \tvar oldonload = window.onload;\r\n\
+      \tif (typeof window.onload != 'function')\r\n\
+      \t{\r\n\
+      \t\twindow.onload = MyFunction;\r\n\
+      \t}\r\n\
+      \telse\r\n\
+      \t{\r\n\
+      \t\twindow.onload = function()\r\n\
+      \t\t{\r\n\
+      \t\t\tif (oldonload)\r\n\
+      \t\t\t{\r\n\
+      \t\t\t\toldonload();\r\n\
+      \t\t\t}\r\n\
+      \t\t\tMyFunction();\r\n\
+      \t\t}\r\n\
+      \t}\r\n\
+      }\r\n\
+      \r\n\
+      //DHill - List event(s) to be loaded\r\n\
+      addLoadEvent(DefaultCountry);\r\n\
+      \r\n\
+      //DHill - Default Country Script\r\n\
+      function DefaultCountry()\r\n\
+      {\r\n\
+      \tif(document.getElementById('countrydrpdwn'))\r\n\
+      \t{\r\n\
+      \t\tif(document.getElementById('countrydrpdwn').value==\"\")\r\n\
+      \t\t{\r\n\
+      \t\t\tdocument.newResumeSub.countrydrpdwn.options[224].selected='true'; // 224 = United States (01/19/09)\r\n\
+      \r\n\
+      \t\t\t//Popoulates the OpenHire State/Location field with State values\r\n\
+      \t\t\tpopulateLocations(document.newResumeSub.countrydrpdwn.options[document.newResumeSub.countrydrpdwn.selectedIndex].value, document.newResumeSub);\r\n\
+      \t\t}\r\n\
+      \t}\r\n\
+      }\r\n\
+      </script>\r\n\
+      \r\n\
+      <link rel=\"stylesheet\" type=\"text/css\" href=\"/epostings/clients/16053/openhireglobal.css\" />\r\n\
+      <link rel=\"stylesheet\" type=\"text/css\" href=\"/epostings/clients/16053/openhire.css\" />\r\n\
+      \t\r\n\
+      \r\n\
+      \t\t\t<!-- OpenHire: 5.2.11 -->\r\n\
+      \t\t\t<link rel=\"P3Pv1\" href=\"/w3c/p3p.xml\" />\r\n\
+      \t\t\t<link rel=\"stylesheet\" href=\"/ats/themes/silkroad/jquery-ui.css?v=1.8.12\" />\r\n\
+      \t\t\t<link rel=\"stylesheet\" href=\"/uilib/assets/styles/uilib.css?v=5.2.11\" />\r\n\
+      \t\t\t<link rel=\"stylesheet\" href=\"/epostings/assets/styles/main.css?v=5.2.11\" />\r\n\
+      \t\t\t<!-- /epostings/assets/styles/app/jobsearch.css -->\r\n\
+      \t\t\t<script src=\"/uilib/plugins/jquery/jquery.min.js?v=1.4.4\"></script>\r\n\
+      \t\t\t<script src=\"/uilib/plugins/jquery/jquery-ui.min.js?v=1.8.12\"></script>\r\n\
+      \t\t\t<!-- <script src=\"/uilib/plugins/jquery/i18n/jquery.ui.datepicker-en-US.js\"></script> -->\r\n\
+      \t\t\t<script src=\"/uilib/assets/scripts/uilib.js?v=5.2.11\"></script>\r\n\
+      \t\t\t\r\n\
+      \t\t\t<script src=\"/epostings/assets/scripts/main.js?v=5.2.11\"></script>\r\n\
+      \t\t\t<!-- /epostings/assets/scripts/app/jobsearch.js -->\r\n\
+      \t\t</head>\r\n\
+      <body id=\"careers\">\r\n \r\n\
+      <div id=\"container\">\r\n\
+      \r\n\
+      <!--  PAGE HEADER END  -->\r\n \r\n\
+      <div id=\"menuPositioner\">\r\n\
+      <div id=\"menuHolder\">\r\n \r\n\
+      <ul id=\"menu\">\r\n\
+      \t<li class=\"corp_nav_links\">TAIC LINKS: </li>\r\n\
+      \t<li><a href=\"http://www.taic.net/index.php\"><b>CORPORATE HOME</b></a></li>\r\n\
+      \t<li><a class=\"sub\" href=\"http://www.taic.net/index.php/about-us/\"><b>ABOUT US</b><!--[if gte IE 7]><!--></a><!--<![endif]-->\r\n\
+      \t<!--[if lte IE 6]><table><tr><td><![endif]-->\r\n\
+      \t\t<ul class=\"sub1\" style=\"width:150px;\">\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/leadership-team/\" style=\"width:150px;\">Leadership Team</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/contracting/\"\" style=\"width:150px;\">Contracting</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/clients/\"\" style=\"width:150px;\">Clients</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/company-locations/\"\" style=\"width:150px;\">Company Locations</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/contact-us/\"\" style=\"width:150px;\">Contact Us</a></li>\r\n\
+      \t\t</ul>\r\n\
+      \t<!--[if lte IE 6]></td></tr></table></a><![endif]-->\r\n\
+      \t</li>\r\n\
+      \t<li><a class=\"sub\" href=\"http://www.taic.net/index.php/services/\"><b>SERVICES</b><!--[if gte IE 7]><!--></a><!--<![endif]-->\r\n\
+      \t<!--[if lte IE 6]><table><tr><td><![endif]-->\r\n\
+      \t\t<ul class=\"sub2\">\r\n\
+      \t\t\t<li><a href=\"http://www.taic-communications.net\">Communications</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-crisismanagement.net\">Crisis Management & Continuity Operations</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-emcs.net\">Energy Management Control Systems</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-energy.net\">Energy Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-engineering.net\">Engineering Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-environmental.net\">Environmental Planning</a></li>\r\n\
+      \t\t\t<li><a href=\"http://facilities.taic.net\">Facilities Management</a></li> \r\n\
+      \t\t\t<li><a href=\"http://www.taic-acquisition.net\">Federal & DoD Acquisition Management</a></li>\r\n\
+      \t\t\t<li><a href=\"http://geospatial.taic.net\">Geospatial Solution Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-it.net\">IT / Network Services </a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-strategy.net\">Management/Strategic Consulting</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-business.net\">Mission Oriented Business Integrated Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-operations.net\">Operatons Center Design, Engineering & Support</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-security.net\">Security Operations</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-sams.net\">Strategic Asset Management</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-supplychain.net\">Strategy & Supply Chain Management</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-systems.net\">Systems Engineering</a></li>\r\n\
+      \t\t\t<li><a href=\"http://telecom.taic.net\">Telecom Infrastructure</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-wireless.net\">Wireless Communications</a></li>\r\n\
+      \t\t</ul>\r\n\
+      \t<!--[if lte IE 6]></td></tr></table></a><![endif]-->\r\n\
+      \t</li>\r\n\
+      \t<li><a class=\"sub\" href=\"http://www.taic.net/index.php/careers/\"><b>CAREERS</b><!--[if gte IE 7]><!--></a><!--<![endif]-->\r\n\
+      \t<!--[if lte IE 6]><table><tr><td><![endif]-->\r\n\
+      \t\t<ul class=\"sub3\" style=\"width:150px;\">\r\n\
+      \t\t\t<li><a href=\"/epostings/submit.cfm?company_id=16053&version=1\" target=\"_blank\" style=\"width:150px;\">Job Openings</a></li>\r\n\
+      \t\t</ul>\r\n\
+      \t<!--[if lte IE 6]></td></tr></table></a><![endif]-->\r\n\
+      \t</li>\r\n\
+      </ul>\r\n\
+      </div>\r\n\
+      </div>\r\n \r\n\
+      \t<div id=\"branding\">\r\n\
+      \t\t<a class=\"taics\" href=\"http://www.taic.net/\">A Division of Technology Associates International Corporation</a>\r\n\
+      \t</div>\r\n\
+      <!--  PAGE HEADER END  -->\r\n\
+      \r\n\
+      \r\n\
+      \t<div id=\"content\">\r\n\
+      \r\n\
+      <!--  BREADCRUMB BEGIN -->\r\n\
+      \r\n\
+      \t<div id=\"breadcrumb\">\r\n\
+      \t\t\t\t<a href=\"http://www.taic.net/index.php\">Home</a>\r\n                &nbsp;/&nbsp;\r\n                <a href=\"http://www.taic.net/index.php/careers/\">Careers</a>\r\n                &nbsp;/&nbsp;\r\n                Job Openings\r\n    </div>\r\n\
+      \r\n\
+      <!--  BREADCRUMB END -->\r\n\
+      \r\n\
+      <!--  LEFT COLUMN BEGIN  -->\r\n\
+      \r\n\
+      \t<div id=\"col-1\">\r\n    <div id=\"subnav\">\r\n\
+      \r\n\
+      <!--  JOB LISTING CATEGORIES BEGIN -->\r\n        <div><h3>Current Job Listings</h3></div>\r\n        <div><br />\r\n          <ul>\r\n\
+      \t\t    <li><a href=\"/epostings/submit.cfm?company_id=16053&version=1\">Job Openings Home</a></li>\r\n            <li><a href=\"/epostings/submit.cfm?fuseaction=app.allpositions&company_id=16053&version=1\">All Posted Jobs</a></li>\r\n          </ul>\r\n        </div>\r\n\
+      <!--  JOB LISTING CATEGORIES END -->\r\n\
+      \r\n\
+      <!--  CONTACT INFO BEGIN -->\r\n    <hr>\r\n        <h2>Contact Us</h2>\r\n        <p><strong>Need more information?</strong></p>\r\n        <p>\r\n            Phone:(760) 603-1195<br />\r\n            <!--e-mail: <a href=\"mailto:jobs@taic.net?Subject=Careers @ TAIC Inquiry\">jobs@taic.net</a>-->\r\n        </p>\r\n\
+      \r\n\
+      <!--  CONTACT INFO END -->\r\n\
+      \r\n    </div>\r\n\
+      \t</div>\r\n\
+      \r\n\
+      <!--  LEFT COLUMN END  -->\r\n\
+      \r\n\
+      <!--  RIGHT COLUMN BEGIN  -->\r\n\
+      \r\n\
+      <div id=\"col-2\">\r\n\
+      \t\t<h2>Job Openings </h2>\r\n        <br />\r\n      <div>\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\t<p class=\"cssSearchResultsTitle\">Search Results</p>\r\n\
+      \t\t<div class=\"cssSearchResultsHead\">\r\n\
+      \t\t\tYour search&nbsp;returned <SPAN class=\"cssHighlight\"><span class=\"cssHighlight\">24</span></SPAN> matching record(s).\r\n\
+      \t\t</div>\r\n\
+      \t\t<script type=\"text/javascript\">\r\n\
+      \t\t/* <![CDATA[ */\r\n\
+      \t\tfunction doSection(secID) {\r\n\
+      \t\t\tvar mySpan = document.getElementById(secID);\r\n\
+      \t\t\tif (mySpan.style.display==\"none\") {\r\n\
+      \t\t\t\tmySpan.style.display=\"block\";\r\n\
+      \t\t\t} else {\r\n\
+      \t\t\t\tmySpan.style.display=\"none\";\r\n\
+      \t\t\t}\r\n\
+      \t\t}\r\n\
+      \t\t/* ]]> */\r\n\
+      \t\t</script>\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \t\t<p class=\"cssSearchResultsHead\">[ <a id=\"searchResultsHead\" href=\"#jobsearch\" onclick=\"doSection('srchArea');\" class=\"cssSearchResultsHead\">Conduct another search</a> ]</p>\r\n\
+      \t\t<!-- jobsearch007 -->\r\n\
+      \t\t<div class=\"cssSearchResults\">\r\n\
+      \t\t\t<table class=\"cssSearchResults\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\r\n\
+      \t\t\t\t<tr class=\"cssSearchResultsColHead\">\r\n\
+      \t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsColHead\"><a id=\"header_trackingCode\" href=\"index.cfm?company_id=16053&amp;version=1&amp;tcorder=asc&amp;fuseaction=app.jobsearch&amp;thiscol=TRACKINGCODE&amp;byBusinessUnit=NULL&amp;bystate=0&amp;bycountry=0&amp;keywords=&amp;bylocation=&amp;byCat=&amp;newsort=yes&amp;tosearch=yes\">Tracking Code</a></td>\r\n\
+      \t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsColHead\"><a id=\"header_jobTitle\" href=\"index.cfm?company_id=16053&amp;version=1&amp;jtorder=asc&amp;fuseaction=app.jobsearch&amp;thiscol=job_title&amp;byBusinessUnit=NULL&amp;bystate=0&amp;bycountry=0&amp;keywords=&amp;bylocation=&amp;byCat=&amp;newsort=yes&amp;tosearch=yes\">Job Title</a></td>\r\n\
+      \t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsColHead\"><a id=\"header_location\" href=\"index.cfm?company_id=16053&amp;version=1&amp;lorder=asc&amp;fuseaction=app.jobsearch&amp;thiscol=state,city&amp;byBusinessUnit=NULL&amp;bystate=0&amp;bycountry=0&amp;keywords=&amp;bylocation=&amp;byCat=&amp;newsort=yes&amp;tosearch=yes\">Location</a></td>\r\n\
+      \t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsColHead\"><a id=\"header_datePosted\" href=\"index.cfm?company_id=16053&amp;version=1&amp;dporder=asc&amp;fuseaction=app.jobsearch&amp;thiscol=postingdate&amp;byBusinessUnit=NULL&amp;bystate=0&amp;bycountry=0&amp;keywords=&amp;bylocation=&amp;byCat=&amp;newsort=yes&amp;tosearch=yes\">Date Posted</a></td>\r\n\
+      \t\t\t\t</tr>\r\n\
+      \r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011392</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217392\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217392&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">IT Support Specialist</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Midwest City, OK, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">12/29/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011391</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217391\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217391&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">IT Support Specialist</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Midwest City, OK, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">12/29/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011390</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217390\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217390&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992301&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Project Coordinator</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Carlsbad, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">12/22/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011388</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217388\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217388&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">GIS Analyst</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Yuma, AZ, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">12/13/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011387</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217387\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217387&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Enviromental Planner</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Yuma, AZ, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">12/8/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011386</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217386\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217386&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992301&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Senior Wireless Site Acquisitionist/Land Use Planner</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Hayward, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">11/30/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011385</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217385\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217385&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">GIS Analyst</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Washington, DC, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">11/30/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011384</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217384\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217384&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Project Manager</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Washington, DC, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">11/22/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011382</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217382\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217382&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992301&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Architecture & Engineering Project Manager</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Fresno, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">11/16/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011370</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217370\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217370&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Applications Developer (Maximo)</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Sacramento, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/29/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011371</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217371\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217371&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Applications Developer (Maximo)</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Washington, DC, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/29/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011373</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217373\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217373&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Maximo EAM (Enterprise Asset Management) Business Analyst</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Washington, DC, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/29/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011372</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217372\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217372&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Maximo EAM (Enterprise Asset Management) Business Analyst</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Sacramento, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/29/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011361</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217361\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217361&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992301&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Architecture & Engineering Project Manager</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Hayward, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/20/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011355</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217355\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217355&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">IT Support Specialist</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Kansas City, MO, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/13/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011353</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217353\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217353&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Control Systems Engineer</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Winchester, VA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/12/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011346</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217346\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217346&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Software Developer (Silverlight)</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Newport Beach, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/3/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011347</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217347\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217347&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Software Developer (Silverlight)</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Newport Beach, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">10/3/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011342</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217342\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217342&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992301&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Architecture & Engineering Project Manager</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Seattle, WA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">9/30/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011343</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217343\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217343&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992301&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Architecture & Engineering Project Manager</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Portland, OR, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">9/30/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011338</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217338\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217338&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992301&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Architecture & Engineering Project Manager</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Irvine, CA, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">9/27/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011333</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217333\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217333&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Functional SAP Analyst</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Annapolis, MD, US</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">9/20/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsHighlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011292</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217292\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217292&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Maximo EAM (Enterprise Asset Management) Business Analyst</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Calgary, AB, Canada</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">8/20/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<tr class=\"cssSearchResultsLowlight\">\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">2011289</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\"><a id=\"jobTitle_217289\" href=\"index.cfm?fuseaction=app.jobinfo&amp;jobid=217289&amp;company_id=16053&amp;source=ONLINE&amp;JobOwner=992315&amp;byBusinessUnit=NULL&amp;bycountry=0&amp;bystate=0&amp;bylocation=&amp;keywords=&amp;byCat=&amp;tosearch=yes\" class=\"cssSearchResultsBody\">Applications Developer (Maximo)</a></td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"left\" class=\"cssSearchResultsBody\">Calgary, AB, Canada</td>\r\n\
+      \t\t\t\t\t\t\t<td align=\"center\" class=\"cssSearchResultsBody\">8/19/2011</td>\r\n\
+      \t\t\t\t\t\t</tr>\r\n\
+      \t\t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t</table>\r\n\
+      \t\t</div>\r\n\
+      \r\n\
+      \t\t<div id=\"srchArea\" style=\"display:none;\">\r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\t\r\n\
+      \r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\t\t<script type=\"text/javascript\">\r\n\
+      \t\t\t/* <![CDATA[ */\r\n\
+      \t\t\tfunction showKeyValue(evt) {\r\n\
+      \t\t\t\tevt = evt || window.event;\r\n\
+      \t\t\t\tif (evt.keyCode == 13) {\r\n\
+      \t\t\t\t\tchkWords();\r\n\
+      \t\t\t\t}\r\n\
+      \t\t\t\treturn false;\r\n\
+      \t\t\t}\r\n\
+      \t\t\tfunction chkWords() {\r\n\
+      \t\t\t\tif (document.frmsearch.keywords.value.indexOf('*') > 0)\r\n\
+      \t\t\t\t{\r\n\
+      \t\t\t\t\talert(\"Please do not use any wildcard parameters from the search term\");\r\n\
+      \t\t\t\t\tdocument.frmsearch.keywords.focus();\r\n\
+      \t\t\t\t}\r\n\
+      \t\t\t\telse\r\n\
+      \t\t\t\t{\r\n\
+      \t\t\t\t\tdocument.frmsearch.submit();\r\n\
+      \t\t\t\t\tdocument.frmsearch.Search.disabled=true;\r\n\
+      \t\t\t\t}\r\n\
+      \t\t\t}\r\n\
+      \t\t\t/* ]]> */\r\n\
+      \t\t\t</script>\r\n\
+      \t\t\t<noscript>\r\n\
+      \t\t\t\t<p>You do not have javascript enabled to use the Keyword search.</p>\r\n\
+      \t\t\t</noscript>\r\n\
+      \r\n\
+      \t\t\t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \t\t\t\r\n\
+      \r\n\
+      \t\t\t<a id=\"jobSearch\" name=\"jobsearch\" onfocus=\"document.frmsearch.search.focus()\"></a>\r\n\
+      \r\n\
+      \t\t\t<form id=\"frmsearch\" action=\"?fuseaction=app.jobsearch\" method=\"post\" name=\"frmsearch\" class=\"cssSearch\" onsubmit=\"false\">\r\n\
+      \t\t\t\t<input type=\"hidden\" name=\"company_id\" value=\"16053\" />\r\n\
+      \t\t\t\t<input type=\"hidden\" name=\"version\" value=\"1\" />\r\n\
+      \t\t\t\t<input type=\"hidden\" name=\"tosearch\" value=\"yes\" />\r\n\
+      \r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t<div id=\"searchWordingDiv\" class=\"cssSearchBody\"><br><SPAN class=\"cssEditResTitle\">Job Search</SPAN><br>Please enter search terms below (e.g., Marketing, Call Center, Seasonal, Developer).<br><br><i>Hold down the <b>Ctrl</b> key (<b>Command</b> key for Mac) to make multiple selections or to deselect items</i></div>\r\n\
+      \t\t\t\t<div id=\"searchKeyWordsDiv\" class=\"cssSearchBody\">\r\n\
+      \t\t\t\t\t<span class=\"cssSearchTitle\"><label for=\"keywords\">Enter Search Terms</label></span><br />\r\n\
+      \t\t\t\t\t<input type=\"text\" name=\"keywords\" id=\"keywords\" class=\"cssFormData\" value=\"\" onkeypress=\"showKeyValue(event);\" />\r\n\
+      \t\t\t\t</div>\r\n\
+      \r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t\r\n\
+      \r\n                    \r\n\
+      \t\t\t\t\t<div id=\"searchKeyWordFilterDiv\" class=\"cssSearchBody\">\r\n\
+      \t\t\t\t\t\t<span class=\"cssSearchTitle\"><label for=\"byCat\">Filter by Category</label></span><br />\r\n\
+      \t\t\t\t\t\t<select name=\"byCat\" id=\"byCat\" class=\"cssApplyFormData\" multiple=\"multiple\" size=\"5\" onchange=\"if(this.value.length==0){alert('Please select a Category or default to All');this.selectedIndex=0;}\">\r\n\
+      \t\t\t\t\t\t\t<option id=\"byCat_\" value=\"NULL\">All Categories</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84451\" value=\"84451\">Accounting / Finance</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84443\" value=\"84443\">Civil Technology</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84437\" value=\"84437\">Communications</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84441\" value=\"84441\">Continuity of Government</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84442\" value=\"84442\">Contracts</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84438\" value=\"84438\">DoD Acquisition Management</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84766\" value=\"84766\">Energy Services</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84767\" value=\"84767\">Engineering Services</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84768\" value=\"84768\">Environmental</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84769\" value=\"84769\">Environmental Health and Safety Services</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84770\" value=\"84770\">Geospatial Information Systems (GIS)</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84771\" value=\"84771\">Government</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84772\" value=\"84772\">Hazard Evaluation and Industrial Hygiene</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84773\" value=\"84773\">Human Resources</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84774\" value=\"84774\">Information Technology</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84775\" value=\"84775\">Logistics</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84776\" value=\"84776\">Professional Services</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84793\" value=\"84793\">Project Management</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84777\" value=\"84777\">Security Monitor</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84778\" value=\"84778\">Software</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84779\" value=\"84779\">Strategic Asset Management - Canada</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byCat_84780\" value=\"84780\">Strategic Asset Management - US</option>\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t</select>\r\n\
+      \t\t\t\t\t</div>\r\n                    \r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t<input type=\"hidden\" name=\"byBusinessUnit\" value=\"NULL\" />\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t<div id=\"searchLocationFilterDiv\" class=\"cssSearchBody\">\r\n\
+      \r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t<span class=\"cssSearchTitle\"><label for=\"byLocation\">Filter by Location</label></span><br />\r\n\
+      \t\t\t\t\t<select name=\"byLocation\" id=\"byLocation\" class=\"cssApplyFormData\" multiple=\"multiple\" size=\"5\" onchange=\"if(this.value.length==0){alert('Please select a Location or default to All');this.selectedIndex=0;}\">\r\n\
+      \t\t\t\t\t\t<option id=\"byLocation_\" value=\"NULL\">All Locations</option>\r\n\
+      \t\t\t\t\t\t<optgroup label=\"COUNTRIES\">\r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t\t<option id=\"byLocation_US\" value=\"US\">United States</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t\t<option id=\"byLocation_CA\" value=\"CA\">Canada</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t</optgroup>\r\n\
+      \t\t\t\t\t\t<optgroup label=\"State/Province/Region\">\r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_AZ\" value=\"US_AZ\" >Arizona</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_CA\" value=\"US_CA\" >California</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_DC\" value=\"US_DC\" >District of Columbia</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_MD\" value=\"US_MD\" >Maryland</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_MO\" value=\"US_MO\" >Missouri</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_OK\" value=\"US_OK\" >Oklahoma</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_OR\" value=\"US_OR\" >Oregon</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_VA\" value=\"US_VA\" >Virginia</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_WA\" value=\"US_WA\" >Washington</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n                            \t\r\n\
+      \t\t\t\t\t\t\t\t<option id=\"byLocation_AB\" value=\"CA_AB\" >Alberta</option>\r\n                                \r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t</optgroup>\r\n\
+      \t\t\t\t\t</select>\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t</div>\r\n\
+      \t\t\t\t<input type=\"hidden\" name=\"bycountry\" value=\"0\" />\r\n\
+      \t\t\t\t<input type=\"hidden\" name=\"bystate\" value=\"0\" />\r\n\
+      \t\t\t\t<div id=\"jobSearchButtonDiv\" class=\"cssSearchBody\"><input type=\"button\" name=\"Search\" id=\"Search\" value=\"Perform Search\" class=\"cssFormButton\" onclick=\"chkWords();\" onkeypress=\"chkWords();\" /></div>\r\n\
+      \t\t\t</form>\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\t\t\r\n\
+      \t\t</div>\r\n\
+      \t\t<div class=\"cssSearchResultsHead\">\r\n\
+      \t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t[ <a id=\"searchResultsFoot\" href=\"#jobsearch\" onclick=\"doSection('srchArea');\" class=\"cssSearchResultsHead\">Conduct another search</a> ]\r\n\
+      \t\t</div>\r\n\
+      \t\t<div class=\"cssSearchResults\">\r\n\
+      \t\t\t<form name=\"frmSrchExit\" action=\"submit.cfm\">\r\n\
+      \t\t\t\t<input type=\"button\" id=\"returnButton\" value=\"Return To Job Listings\" class=\"cssFormButton\" onclick=\"self.location='/epostings/index.cfm?fuseaction=app.welcome&amp;company_id=16053&amp;version=1';\" />\r\n\
+      \t\t\t</form>\r\n\
+      \t\t</div>\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\t<br>\r\n\
+      \t\t</div>\r\n      </div>\r\n\
+      \r\n\
+      <!--  RIGHT COLUMN END  -->\r\n\
+      \t</div>\r\n    \r\n\
+      <!--  FOOTER BEGIN -->\r\n\
+      \t<div id=\"footer\">\r\n\
+      \t\t<p><big><strong>Technology Associates</strong> International Corporation</big><br />\r\n\
+      \t\t\t&copy; 2007-2009 Technology Associates. All Rights Reserved</p>\r\n\
+      \t\t<p><a href=\"http://www.taic.net/\">TAIC Home Page</a> | <a href=\"http://www.taic.net/index.php/site/static/site-map/\"}\">Site Map</a> | <a href=\"http://www.taic.net/index.php/site/static/web-privacy-statement/\">Web Privacy Statement</a> | <a href=\"http://www.taic.net/index.php/about-us/contact-us/\">Contact Us</a></p>\r\n\
+      \t</div>\r\n\
+      <!--  FOOTER BEGIN -->\r\n\
+      \r\n\
+      </div>\r\n\
+      </body>\r\n\
+      </html>\r\n\
+      \t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t<!--\r\n\
+      \t\tBrowser Locale: en_US\r\n\
+      \t\tSite Default Locale: en_US\r\n\
+      \t\tisSupportedLocale: Yes\r\n\
+      \t\tisPortalSupportedLocale: Yes\r\n\
+      \t\tdetermineSupportedLocale: en_US\r\n\
+      \t\tdeterminePortalSupportedLocale: en_US\r\n\
+      \t\tlocaleSupportedID: 2\r\n\
+      \t\t\r\n\
+      \t\tSession Locale: {\"GOVERNMENTIDREGEX\":\"\",\"TRANSLATELOCALECODE\":\"en_US\",\"FORMATLOCALEID\":324,\"LOCALECODE\":\"en_US\",\"PHONEREGEX\":\"^([+])?([1]( |-|\\\\.)?)?(\\\\(?[1-9]{1}[0-9]{2}\\\\)?|[1-9]{1}[0-9]{2})( |-|\\\\.)?([0-9]{3}( |-|\\\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$\",\"LOCALEID\":324,\"FORMATLOCALECODE\":\"en_US\",\"LOCALESUPPORTEDID\":2,\"POSTALADDRESSXSLT\":\"<xsl:stylesheet xmlns:xsl=\\\"http:\\/\\/www.w3.org\\/1999\\/XSL\\/Transform\\\" version=\\\"1.0\\\"><xsl:template match=\\\"\\/PostalAddress\\\"><div class=\\\"ui-PostalAddress\\\"><xsl:if test=\\\"Recipient\\/PersonName\\/FormattedName != ''\\\"><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-FormattedName\\\"><xsl:value-of select=\\\"Recipient\\/PersonName\\/FormattedName\\\"\\/><\\/span><\\/div><\\/xsl:if><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-StreetName\\\"><xsl:value-of select=\\\"DeliveryAddress\\/StreetName\\\"\\/><\\/span><xsl:if test=\\\"DeliveryAddress\\/AddressLine != ''\\\"><span class=\\\"ui-PostalAddress-AddressLine\\\"><xsl:value-of select=\\\"DeliveryAddress\\/AddressLine\\\"\\/><\\/span><\\/xsl:if><\\/div><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-Municipality\\\"><xsl:value-of select=\\\"Municipality\\\"\\/><\\/span>,\\n\\t\\t      <span class=\\\"ui-PostalAddress-Region\\\"><xsl:value-of select=\\\"Region\\\"\\/><\\/span>\xC2\xA0\\n\\t\\t\\t  <span class=\\\"ui-PostalAddress-PostalCode\\\"><xsl:value-of select=\\\"PostalCode\\\"\\/><\\/span><\\/div><xsl:if test=\\\"CountryCode != ''\\\"><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-CountryCode\\\"><xsl:value-of select=\\\"CountryCode\\\"\\/><\\/span><\\/div><\\/xsl:if><\\/div><\\/xsl:template><\\/xsl:stylesheet>\",\"POSTALCODEREGEX\":\"^\\\\d{5}([\\\\-]\\\\d{4})?$\",\"TRANSLATELOCALEID\":324}\r\n\
+      \t\t-->\r\n\
+      \t"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://taic.silkroad.com:443/epostings/index.cfm?JobOwner=992315&byBusinessUnit=NULL&byCat=&bycountry=0&bylocation=&bystate=0&company_id=16053&fuseaction=app.jobinfo&jobid=217392&keywords=&source=ONLINE&tosearch=yes
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      x-powered-by: 
+      - ASP.NET
+      p3p: 
+      - policyref="/w3c/p3p.xml",CP="NOI CURa ADMa DEVa TAIa IVAa IVDa OUR NOR BUS UNI COM NAV INT"
+      content-type: 
+      - text/html; charset=utf-8
+      content-language: 
+      - en-US
+      server: 
+      - Microsoft-IIS/6.0
+      date: 
+      - Tue, 03 Jan 2012 20:40:13 GMT
+      set-cookie: 
+      - BIGipServer=ykXlRgzDTDYvpSVafO20QEwVnJJJkm4kSWtiXhVQMD4uMQ1MNiURdiK/my664OyK2lxTCaLvVcZqykg=; path=/
+      - CENTRALSERVER=srtsql02;path=/
+      - CFID=10169527;path=/
+      - CFTOKEN=94f53aa75d7748b3%2DA54CFB11%2D155D%2D007F%2D17ADD9D9B5936015;path=/
+      - COMPANYID=16053;path=/
+      - JSESSIONID=7030e09ff1dcff07d8e652731c6b62341c2a;path=/
+    body: "\r\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\
+      <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n \r\n\
+      <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n\
+      <head>\r\n\
+      \t<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\r\n\
+      \t\r\n\
+      \t<title>Careers / TAIC</title>\r\n\
+      \t\r\n\
+      <style>\r\n\
+      /*-------------------------------------------------------\r\n   RESET\r\n\
+      -------------------------------------------------------*/\r\n\
+      html, body, div, span, applet, object, iframe,\r\n\
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,\r\n\
+      a, abbr, acronym, address, big, cite, code,\r\n\
+      del, dfn, font, img, ins, kbd, q, s, samp,\r\n\
+      small, strike, sub, sup, tt, var,\r\n\
+      dl, dt, dd, ol, ul, li,\r\n\
+      fieldset, form, label, legend,\r\n\
+      table, caption, tbody, tfoot, thead, tr, th, td {\r\n\
+      \tmargin: 0;\r\n\
+      \tpadding: 0;\r\n\
+      \tborder: 0;\r\n\
+      \toutline: 0;\r\n\
+      \tfont-weight: inherit;\r\n\
+      \tfont-style: inherit;\r\n\
+      \tfont-size: 100%;\r\n\
+      \tfont-family: inherit;\r\n\
+      \tvertical-align: baseline;\r\n\
+      }\r\n\
+      \r\n\
+      /* remember to define focus styles! */\r\n\
+      :focus {\r\n\
+      \toutline: 0;\r\n\
+      }\r\n\
+      \r\n\
+      body {\r\n\
+      \tline-height: 1;\r\n\
+      \tcolor: black;\r\n\
+      \tbackground: white;\r\n\
+      }\r\n\
+      \r\n\
+      ol, ul {\r\n\
+      \tlist-style: none;\r\n\
+      }\r\n\
+      \r\n\
+      /* tables still need 'cellspacing=\"0\"' in the markup */\r\n\
+      table {\r\n\
+      \tborder-collapse: separate;\r\n\
+      \tborder-spacing: 0;\r\n\
+      }\r\n\
+      \r\n\
+      caption, th, td {\r\n\
+      \ttext-align: left;\r\n\
+      \tfont-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      blockquote:before, blockquote:after,\r\n\
+      q:before, q:after {\r\n\
+      \tcontent: \"\";\r\n\
+      }\r\n\
+      \r\n\
+      blockquote, q {\r\n\
+      \tquotes: \"\" \"\";\r\n\
+      }\r\n\
+      \r\n\
+      .clear {\r\n   clear: both;\r\n\
+      }\r\n\
+      \r\n\
+      /* -----------------------------------------------------\r\n   Corp style.css\r\n   // COLOUR INDEX\r\n   #6ba3e3 - mainnav rollover / sidenav rollover / inline links\r\n   #d5d5d5 - footer rollover\r\n   #5d5d5d - body copy\r\n\
+      -------------------------------------------------------*/\r\n\
+      \r\n\
+      /*\r\n   BODY\r\n\
+      -------------------------------------------------------*/\r\n\
+      body {\r\n   text-align: center;\r\n   background: #FFF url(/epostings/clients/16053/images/corp_bg-body.jpg) repeat-x top left;\r\n   font-size: 12px;\r\n   font-family: \"Lucida Grande\", \"Lucida Sans Unicode\", Trebuchet, Arial, sans-serif;\r\n   color: #5d5d5d;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   CLEARFIX\r\n\
+      -------------------------------------------------------*/\r\n\
+      .clearfix:after {\r\n    content: \".\"; \r\n    display: block; \r\n    height: 0; \r\n    clear: both; \r\n    visibility: hidden;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   TYPOGRAPHY and BASIC ELEMENTS\r\n\
+      -------------------------------------------------------*/\r\n\
+      /* headings */\r\n\
+      h2, h3, h4, h5, h6 {\r\n   font-weight: normal;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      h1 {\r\n\
+      \ttext-indent: -9999px;\r\n\
+      }\r\n\
+      \r\n\
+      h2 {\r\n   color: #6ba3e3; \r\n   font-size: 24px;\r\n\
+      }\r\n\
+      \r\n\
+      div.header2 {\r\n\
+      \tcolor: #6ba3e3; \r\n\
+      \tfont-size: 24px;\r\n\
+      }\r\n\
+      div.headerBG {\r\n\
+      \tcolor: #6ba3e3; \r\n\
+      \tfont-size: 48px;\r\n\
+      }\r\n\
+      \r\n\
+      h3 {\r\n   color: #5d5d5d;\r\n   font-size: 14px;\r\n   font-weight: bold;\r\n   padding-bottom: 5px;\r\n\
+      }\r\n\
+      \r\n   .news-mini-entry h3 {\r\n      font-size: 12px;\r\n   }\r\n   \r\n   h3.alt {\r\n      color: #6ba3e3;\r\n   }\r\n   \r\n\
+      h4 {\r\n   color: #5d5d5d;\r\n   font-size: 12px;\r\n   font-weight: bold;\r\n   padding-bottom: 5px;\r\n\
+      }\r\n\
+      \r\n\
+      h5 {\r\n   color: #6ba3e3;\r\n   font-size: 12px;\r\n   font-weight: bold;\r\n   padding-bottom: 5px;\r\n\
+      }\r\n\
+      \r\n\
+      h6 {\r\n   color: #6ba3e3; \r\n   font-size: 12px;\r\n\
+      }\r\n\
+      \r\n\
+      /* paragraphs etc. */\r\n\
+      p {\r\n   line-height: 1.5;\r\n   padding-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      \tp.left {\r\n\
+      \t   text-align: left;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.right {\r\n\
+      \t   text-align: right;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.center {\r\n\
+      \t   text-align: center;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.date {\r\n      font-size: 10px;\r\n      padding-bottom: 0;\r\n   }\r\n   \r\n      p.date-below {\r\n         font-size: 10px;\r\n         padding-bottom: 10px;\r\n      }\r\n      \r\n      p.date-below span {\r\n         padding-left: 15px;\r\n         margin-left: 5px;\r\n      }\r\n\
+      \t\r\n\
+      \tp.news-archive {\r\n\
+      \t   padding: 0 0 10px;\r\n\
+      \t}\r\n\
+      \t\r\n\
+      \tp.feature-light {\r\n\
+      \t\tcolor: #FFF;\r\n\
+      \t}\r\n\
+      \r\n\
+      big {\r\n   font-size: 120%;\r\n\
+      }\r\n\
+      \r\n\
+      small {\r\n   font-size: 80%;\r\n\
+      }\r\n\
+      \r\n\
+      strong, b {\r\n   font-weight: bold;\r\n\
+      }\r\n\
+      \r\n\
+      em, i {\r\n   font-style: italic;\r\n\
+      }\r\n\
+      \r\n\
+      blockquote {\r\n   padding: 0 20px;\r\n\
+      }\r\n\
+      \r\n\
+      /* lists - usually have to put #content in front */\r\n\
+      #content ul {\r\n   line-height: 1.5;\r\n   list-style: none;\r\n   margin-left: 0;\r\n   padding-left: 0;\r\n   padding-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      #content ul ul {\r\n   padding-bottom: 0;\r\n\
+      }\r\n\
+      \r\n\
+      #content ul li {\r\n   background: url(/epostings/clients/16053/images/bg-subnav.gif) no-repeat 0 3px;\r\n   padding-left: 15px;\r\n\
+      }\r\n\
+      \r\n\
+      #content ol {\r\n   line-height: 1.5;\r\n   list-style: decimal outside;\r\n   margin-left: 36px;\r\n   padding-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      #content ol ol {\r\n   padding-bottom: 0;\r\n\
+      }\r\n\
+      \r\n\
+      /* links */\r\n\
+      a, a:visited {\r\n   text-decoration: none;\r\n   font-weight: bold;\r\n   color: #6ba3e3;\r\n\
+      }\r\n\
+      \r\n\
+      a:hover {\r\n   text-decoration: underline;\r\n\
+      }\r\n\
+      \r\n\
+      a.taics {\r\n   display: block;\r\n   width: 300px;\r\n   height: 76px;\r\n   text-indent: -9999px;\r\n   position: absolute;\r\n   top: 32px;\r\n   right: 29px;\r\n   background: url(/epostings/clients/16053/images/corp_taics-logo.png) no-repeat top left;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      /* images */\r\n\
+      img.left {\r\n\
+      \tfloat: left;\r\n\
+      \tmargin-right: 10px;\r\n\
+      \tmargin-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      img.right {\r\n   float: right;\r\n   margin-left: 10px;\r\n   margin-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      img.center {\r\n\
+      \tmargin: 0 auto 20px;\r\n\
+      \tdisplay: block;\r\n\
+      }\r\n\
+      \r\n\
+      img.border {\r\n   padding: 5px;\r\n   border: 1px solid #d6d6d6;\r\n\
+      }\r\n\
+      \r\n\
+      /* horizontal rule */\r\n\
+      hr {\r\n\
+      \tcolor: #eee;\r\n\
+      \tbackground-color: #eee;\r\n\
+      \tborder: 0;\r\n\
+      \theight: 1px;\r\n\
+      }\r\n\
+      \r\n\
+      /* tables */\r\n\
+      table {\r\n   margin-bottom: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      /* forms */\r\n\
+      form {\r\n   margin-bottom: 20px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #contact_form input.txt,\r\n\
+      #contact_form textarea {\r\n   width: 300px;\r\n   border: 1px solid #9d9d9d;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      fieldset {\r\n   \r\n\
+      }\r\n\
+      \r\n\
+      legend {\r\n   \r\n\
+      }\r\n\
+      \r\n\
+      #comment_form label {\r\n   float: left;\r\n   width: 60px;\r\n   clear:both;\r\n\
+      }\r\n\
+      \r\n\
+      input.comment-txt {\r\n   border: 1px solid #9d9d9d;\r\n   width: 250px;\r\n\
+      }\r\n\
+      \r\n\
+      textarea.comment-area {\r\n   border: 1px solid #9d9d9d;\r\n   width: 538px;\r\n   height: 200px;\r\n\
+      }\r\n\
+      \r\n\
+      .error, .required {\r\n   color: #AC1A1E;\r\n\
+      }\r\n\
+      \r\n\
+      .form-subscribe {\r\n   float: right;\r\n   margin-top: -20px;\r\n\
+      }\r\n\
+      \r\n\
+      .subscribe-link {\r\n   position: absolute;\r\n   top: 0;\r\n   right: 50px;\r\n\
+      }\r\n\
+      \r\n\
+      .form-subscribe img, .subscribe-link img {\r\n   vertical-align: middle;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      /*\r\n   CONTAINER / 970px\r\n\
+      -------------------------------------------------------*/\r\n\
+      #container {\r\n   width: 970px;\r\n   margin: 0 auto;\r\n   text-align: left;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   BRANDING\r\n\
+      -------------------------------------------------------*/\r\n\
+      #branding {\r\n\
+      \tfloat: left;\r\n\
+      \twidth: 970px;\r\n\
+      \theight: 144px;\r\n\
+      \tposition: relative;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   MAINNAV\r\n   See mainnav.css\r\n\
+      -------------------------------------------------------*/\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      /*\r\n   CONTENT\r\n\
+      -------------------------------------------------------*/\r\n\
+      #content {\r\n   float: left;\r\n\
+      \twidth: 970px;\r\n\
+      \tbackground: url(/epostings/clients/16053/images/bg-content.png) no-repeat 0 0;\r\n\
+      }\r\n\
+      #content_full {\r\n   float: left;\r\n\
+      \twidth: 970px;\r\n\
+      \tbackground: url(/epostings/clients/16053/images/bg-content_full.png) no-repeat 0 0;\r\n\
+      }\r\n\
+      \r\n\
+      .vert_div {\r\n\
+      \tborder-left: 1px #eeeeee solid;\r\n\
+      }\r\n\
+      \r\n\
+      \r\n\
+      #home #content {\r\n   background: none;\r\n   padding: 0;\r\n\
+      }\r\n\
+      \r\n\
+      .edit {\r\n   padding: 10px;\r\n   text-align: right;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n\
+      \r\n\
+      \r\n\
+      /*\r\n   BREADCRUMB\r\n\
+      -------------------------------------------------------*/\r\n\
+      #breadcrumb {\r\n   float: left;\r\n   width: 560px;\r\n   height: 20px;\r\n   padding: 37px 50px 10px 360px;\r\n   font-size: 11px;\r\n\
+      }\r\n\
+      \r\n\
+      #breadcrumb a {\r\n   font-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      #breadcrumb_full {\r\n   float: left;\r\n   width: 560px;\r\n   height: 20px;\r\n   padding: 37px 40px 10px 60px;\r\n   font-size: 11px;\r\n\
+      }\r\n\
+      #breadcrumb_full a {\r\n   font-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   COL-1\r\n\
+      -------------------------------------------------------*/\r\n\
+      #col-1 {\r\n   float: left;\r\n   width: 250px;\r\n   padding: 0 50px 0 60px;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      #home #col-1 {\r\n\
+      \twidth: 550px;\r\n\
+      \tpadding: 0 0 0 60px;\r\n\
+      \tz-index:100;\r\n\
+      }\r\n\
+      #col-full {\r\n   float: left;\r\n   width: 875px;\r\n   padding: 0 50px 0 60px;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   SUBNAV\r\n\
+      -------------------------------------------------------*/\r\n\
+      #subnav {\r\n   padding-bottom: 100px;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav ul {\r\n   list-style: none;\r\n   margin-left: 0;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav ul ul {\r\n   margin-left: 20px;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav ul ul ul {\r\n   margin-left: 10px;\r\n\
+      }\r\n\
+      \r\n\
+      #content #subnav li {\r\n   padding: 3px 0;\r\n   background: none;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav li a,  #subnav li.here li a {\r\n   font-weight: normal;\r\n   color: #5d5d5d;\r\n   padding-right: 20px;\r\n   background: none;\r\n\
+      }\r\n\
+      \r\n\
+      #subnav li a:hover, #subnav li.here a, #subnav li.here li a:hover {\r\n   color: #6ba3e3;\r\n   text-decoration: none;\r\n   background: url(/epostings/clients/16053/images/bg-subnav.gif) no-repeat right 50%;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   COL-2\r\n\
+      -------------------------------------------------------*/\r\n\
+      #col-2 {\r\n   float: left;\r\n   width: 550px;\r\n   padding: 0 50px 0 0;\r\n   position: relative;\r\n   z-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      #home #col-2 {\r\n\
+      \twidth: 250px;\r\n\
+      \tpadding: 0 60px 0 50px;\r\n\
+      \tz-index:100;\r\n\
+      }\r\n\
+      \r\n\
+      .entry {\r\n   float: left;\r\n   width: 550px;\r\n   padding-top: 5px;\r\n\
+      }\r\n\
+      \r\n\
+      .col-a {\r\n   float: left;\r\n   width: 175px;\r\n\
+      }\r\n\
+      \r\n\
+      .col-b {\r\n   float: left;\r\n   width: 375px;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   FOOTER\r\n\
+      -------------------------------------------------------*/\r\n\
+      #footer {\r\n   float: left;\r\n   width: 832px;\r\n   padding: 20px 60px;\r\n   margin: 0 9px;\r\n   border-top: 1px solid #d3d3d3;\r\n   font-size: 10px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #footer strong {\r\n   color: #000;\r\n   font-weight: normal;\r\n\
+      }\r\n\
+      \r\n\
+      #footer .esri {\r\n   position: absolute;\r\n   top: 22px;\r\n   right: 192px;\r\n\
+      }\r\n\
+      \r\n\
+      #footer .ibm {\r\n   position: absolute;\r\n   top: 22px;\r\n   right: 60px;\r\n\
+      }\r\n\
+      \r\n\
+      /*   Corporate Header Navigation\r\n\
+      -------------------------------------------------------*/\r\n\
+      \r\n\
+      .corp_nav_links {\r\n\
+      \tfont-family:Arial, Helvetica, sans-serif;\r\n\
+      \tfont-size:14px;\r\n\
+      \tfont-weight:bold;\r\n\
+      \tpadding-right:15px;\r\n\
+      \tpadding-top:6px;\r\n\
+      \tpadding-left:25px;\r\n\
+      \tcolor:#9bbadd;\r\n\
+      }\r\n\
+      \r\n\
+      #pad {\r\n\
+      \theight:140px;\r\n\
+      }\r\n\
+      #menu {\r\n\
+      \tpadding:0;\r\n\
+      \tpadding-left:40px;\r\n\
+      \tmargin:0;\r\n\
+      \tlist-style:none;\r\n\
+      \theight:25px;\r\n\
+      \tposition:absolute;\r\n\
+      \tz-index:1000;\r\n\
+      \tfont-family:arial, verdana, sans-serif;\r\n\
+      \tfont-size:12px;\r\n\
+      }\r\n\
+      #menu li {\r\n\
+      \tfloat:left;\r\n\
+      \tmargin-right:1px;\r\n\
+      \tborder-right:#000 1px solid;\r\n\
+      }\r\n\
+      #menu li a {\r\n\
+      \tdisplay:block;\r\n\
+      \tfloat:left;\r\n\
+      \theight:25px;\r\n\
+      \tline-height:25px;\r\n\
+      \tcolor:#fff;\r\n\
+      \ttext-decoration:none;\r\n\
+      \tfont-size:12px;\r\n\
+      \tfont-weight:bold;\r\n\
+      \tpadding:0 15px 0 15px;\r\n\
+      }\r\n\
+      #menu table {\r\n\
+      \tborder-collapse:collapse;\r\n\
+      \twidth:0; height:0;\r\n\
+      \tposition:absolute;\r\n\
+      \ttop:0;\r\n\
+      \tleft:0;\r\n\
+      }\r\n\
+      \r\n\
+      /* Default link styling */\r\n\
+      /* Style the list OR link hover. Depends on which browser is used */\r\n\
+      \r\n\
+      #menu li a:hover {\r\n\
+      \tz-index:500;\r\n\
+      \tposition:relative;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu li:hover {\r\n\
+      \tposition:relative;\r\n\
+      \tz-index:500;\r\n\
+      }\r\n\
+      #menu li:hover > a {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu li:hover > a.sub {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu li.current a {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu li a.sub {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu li.current a.sub {\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu :hover ul {\r\n\
+      \tleft:0;\r\n\
+      \ttop:25px;\r\n\
+      \twidth:325px;\r\n\
+      }\r\n\
+      \r\n\
+      /* keep the 'next' level invisible by placing it off screen. */\r\n\
+      #menu ul, \r\n\
+      #menu :hover ul ul {\r\n\
+      \tposition:absolute;\r\n\
+      \tleft:-9999px;\r\n\
+      \ttop:-9999px;\r\n\
+      \twidth:0;\r\n\
+      \theight:0;\r\n\
+      \tmargin:0;\r\n\
+      \tpadding:0;\r\n\
+      \tlist-style:none;\r\n\
+      }\r\n\
+      #menu :hover ul :hover ul {\r\n\
+      \tleft:120px;\r\n\
+      \ttop:-1px;\r\n\
+      \tbackground:#6091c9;\r\n\
+      \twhite-space:nowrap;\r\n\
+      \twidth:325px;\r\n\
+      \tz-index:1000;\r\n\
+      \theight:auto;\r\n\
+      }\r\n\
+      #menu :hover ul li {\r\n\
+      \tmargin:0;\r\n\
+      \tpadding-top:1px;\r\n\
+      }\r\n\
+      #menu :hover ul li a {\r\n\
+      \twidth:325px;\r\n\
+      \tpadding:0;\r\n\
+      \ttext-indent:10px;\r\n\
+      \tbackground:#6091c9;\r\n\
+      \tcolor:#fff;\r\n\
+      \theight:25px;\r\n\
+      \tline-height:25px;\r\n\
+      }\r\n\
+      #menu :hover ul li a.fly {\r\n\
+      \tbackground:#6091c9;\r\n\
+      }\r\n\
+      #menu :hover ul :hover {\r\n\
+      \tbackground-color:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul :hover a.fly {\r\n\
+      \tbackground-color:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul li.currentsub a {\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul li.currentsub a.fly {\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu :hover ul :hover ul li a {\r\n\
+      \twidth:325px;\r\n\
+      \tpadding:0;\r\n\
+      \ttext-indent:10px;\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      #menu :hover ul :hover ul :hover {\r\n\
+      \tbackground-color:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      #menu :hover ul :hover ul li.currentfly a,\r\n\
+      #menu :hover ul :hover ul li.currentfly a:hover {\r\n\
+      \tbackground:#9bbadd;\r\n\
+      \tcolor:#fff;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n   DIAGNOSTICS\r\n\
+      -------------------------------------------------------*/\r\n\
+      /*  \r\n\
+      img[alt=\"\"] {border: 3px dotted red;}\r\n\
+      \r\n\
+      a[href=\"#\"] {background: lime;}\r\n\
+      a[href=\"\"] {background: fuchsia;}\r\n\
+      */\r\n\
+      \r\n\
+      /* -----------------------------------------------------\r\n\
+      Main Nav Css\r\n\
+      ------------------------------------------------------*/\r\n\
+      \r\n\
+      #tabnav {\r\n   float: left;\r\n   width: 970px;\r\n   height: 35px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #tabnav ul {\r\n   width: 750px;\r\n   height: 18px;\r\n   margin-left: 20px;\r\n   margin-top: 9px;\r\n   float: left;\r\n\
+      }\r\n\
+      \r\n\
+      #tabnav li {\r\n   float: left;\r\n   font-family:Arial, Helvetica, sans-serif;\r\n   text-decoration:none;\r\n   font-size:12px;\r\n   height: 25px;\r\n   color:#FFF;\r\n   background-color:#000;\r\n   background: url(/epostings/clients/16053/images/tabnav_bkgd.jpg) repeat-x;\r\n   border-right:#000 2px solid;\r\n\
+      }\r\n\
+      \r\n\
+      #tabnav li a {\r\n   display: block;\r\n   color:#FFF;\r\n   text-decoration:none;\r\n   padding-top:4px;\r\n   padding-left:6px;\r\n   padding-right:8px;\r\n   padding-bottom:8px;\r\n   margin-top:3px;\r\n\
+      }\r\n\
+      #tabnav li a:hover {\r\n   display: block;\r\n   color:#9bbadd;\r\n   padding-top:4px;\r\n   padding-left:6px;\r\n   padding-right:8px;\r\n   padding-bottom:8px;\r\n   text-decoration:none;\r\n   margin-top:3px;\r\n\
+      }\r\n\
+      \r\n\
+      /*\r\n\
+      \r\n\
+      MAIN NAVIGATION\r\n\
+      -------------------------------------------------------*/\r\n\
+      #mainnav {\r\n   float: left;\r\n   width: 970px;\r\n   height: 35px;\r\n   position: relative;\r\n\
+      }\r\n\
+      \r\n\
+      #mainnav ul {\r\n   width: 686px;\r\n   height: 35px;\r\n   margin-left: 60px;\r\n   float: left;\r\n\
+      }\r\n\
+      \r\n\
+      #mainnav li {\r\n   float: left;\r\n\
+      }\r\n\
+      \r\n\
+      #mainnav li a {\r\n   display: block;\r\n   height: 35px;\r\n   padding: 0 0 0 7px;\r\n   text-indent: -9999px;\r\n\
+      }\r\n\
+      </style>\r\n\
+      \r\n\
+      <script language=\"JavaScript\" type=\"text/javascript\">\r\n\
+      //DHill - Creates the 'Click' event in FireFox\r\n\
+      if(typeof HTMLElement!='undefined'&&!HTMLElement.prototype.click)\r\n\
+      \tHTMLElement.prototype.click=function()\r\n\
+      \t{\r\n\
+      \t\tvar evt = this.ownerDocument.createEvent('MouseEvents');\r\n\
+      \t\tevt.initMouseEvent('click', true, true, this.ownerDocument.defaultView, 1, 0, 0, 0, 0, false, false, false, false, 0, null);\r\n\
+      \t\tthis.dispatchEvent(evt);\r\n\
+      \t}\r\n\
+      \r\n\
+      //DHill - Event Loader\r\n\
+      function addLoadEvent(MyFunction)\r\n\
+      {\r\n\
+      \tvar oldonload = window.onload;\r\n\
+      \tif (typeof window.onload != 'function')\r\n\
+      \t{\r\n\
+      \t\twindow.onload = MyFunction;\r\n\
+      \t}\r\n\
+      \telse\r\n\
+      \t{\r\n\
+      \t\twindow.onload = function()\r\n\
+      \t\t{\r\n\
+      \t\t\tif (oldonload)\r\n\
+      \t\t\t{\r\n\
+      \t\t\t\toldonload();\r\n\
+      \t\t\t}\r\n\
+      \t\t\tMyFunction();\r\n\
+      \t\t}\r\n\
+      \t}\r\n\
+      }\r\n\
+      \r\n\
+      //DHill - List event(s) to be loaded\r\n\
+      addLoadEvent(DefaultCountry);\r\n\
+      \r\n\
+      //DHill - Default Country Script\r\n\
+      function DefaultCountry()\r\n\
+      {\r\n\
+      \tif(document.getElementById('countrydrpdwn'))\r\n\
+      \t{\r\n\
+      \t\tif(document.getElementById('countrydrpdwn').value==\"\")\r\n\
+      \t\t{\r\n\
+      \t\t\tdocument.newResumeSub.countrydrpdwn.options[224].selected='true'; // 224 = United States (01/19/09)\r\n\
+      \r\n\
+      \t\t\t//Popoulates the OpenHire State/Location field with State values\r\n\
+      \t\t\tpopulateLocations(document.newResumeSub.countrydrpdwn.options[document.newResumeSub.countrydrpdwn.selectedIndex].value, document.newResumeSub);\r\n\
+      \t\t}\r\n\
+      \t}\r\n\
+      }\r\n\
+      </script>\r\n\
+      \r\n\
+      <link rel=\"stylesheet\" type=\"text/css\" href=\"/epostings/clients/16053/openhireglobal.css\" />\r\n\
+      <link rel=\"stylesheet\" type=\"text/css\" href=\"/epostings/clients/16053/openhire.css\" />\r\n\
+      \t\r\n\
+      <script type='text/javascript' src='../javascript/fCountChar.js'></script>\r\n\
+      \t\t\t<!-- OpenHire: 5.2.11 -->\r\n\
+      \t\t\t<link rel=\"P3Pv1\" href=\"/w3c/p3p.xml\" />\r\n\
+      \t\t\t<link rel=\"stylesheet\" href=\"/ats/themes/silkroad/jquery-ui.css?v=1.8.12\" />\r\n\
+      \t\t\t<link rel=\"stylesheet\" href=\"/uilib/assets/styles/uilib.css?v=5.2.11\" />\r\n\
+      \t\t\t<link rel=\"stylesheet\" href=\"/epostings/assets/styles/main.css?v=5.2.11\" />\r\n\
+      \t\t\t<!-- /epostings/assets/styles/app/jobinfo.css -->\r\n\
+      \t\t\t<script src=\"/uilib/plugins/jquery/jquery.min.js?v=1.4.4\"></script>\r\n\
+      \t\t\t<script src=\"/uilib/plugins/jquery/jquery-ui.min.js?v=1.8.12\"></script>\r\n\
+      \t\t\t<!-- <script src=\"/uilib/plugins/jquery/i18n/jquery.ui.datepicker-en-US.js\"></script> -->\r\n\
+      \t\t\t<script src=\"/uilib/assets/scripts/uilib.js?v=5.2.11\"></script>\r\n\
+      \t\t\t\r\n\
+      \t\t\t<script src=\"/epostings/assets/scripts/main.js?v=5.2.11\"></script>\r\n\
+      \t\t\t<!-- /epostings/assets/scripts/app/jobinfo.js -->\r\n\
+      \t\t</head>\r\n\
+      <body id=\"careers\">\r\n \r\n\
+      <div id=\"container\">\r\n\
+      \r\n\
+      <!--  PAGE HEADER END  -->\r\n \r\n\
+      <div id=\"menuPositioner\">\r\n\
+      <div id=\"menuHolder\">\r\n \r\n\
+      <ul id=\"menu\">\r\n\
+      \t<li class=\"corp_nav_links\">TAIC LINKS: </li>\r\n\
+      \t<li><a href=\"http://www.taic.net/index.php\"><b>CORPORATE HOME</b></a></li>\r\n\
+      \t<li><a class=\"sub\" href=\"http://www.taic.net/index.php/about-us/\"><b>ABOUT US</b><!--[if gte IE 7]><!--></a><!--<![endif]-->\r\n\
+      \t<!--[if lte IE 6]><table><tr><td><![endif]-->\r\n\
+      \t\t<ul class=\"sub1\" style=\"width:150px;\">\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/leadership-team/\" style=\"width:150px;\">Leadership Team</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/contracting/\"\" style=\"width:150px;\">Contracting</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/clients/\"\" style=\"width:150px;\">Clients</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/company-locations/\"\" style=\"width:150px;\">Company Locations</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic.net/index.php/about-us/contact-us/\"\" style=\"width:150px;\">Contact Us</a></li>\r\n\
+      \t\t</ul>\r\n\
+      \t<!--[if lte IE 6]></td></tr></table></a><![endif]-->\r\n\
+      \t</li>\r\n\
+      \t<li><a class=\"sub\" href=\"http://www.taic.net/index.php/services/\"><b>SERVICES</b><!--[if gte IE 7]><!--></a><!--<![endif]-->\r\n\
+      \t<!--[if lte IE 6]><table><tr><td><![endif]-->\r\n\
+      \t\t<ul class=\"sub2\">\r\n\
+      \t\t\t<li><a href=\"http://www.taic-communications.net\">Communications</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-crisismanagement.net\">Crisis Management & Continuity Operations</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-emcs.net\">Energy Management Control Systems</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-energy.net\">Energy Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-engineering.net\">Engineering Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-environmental.net\">Environmental Planning</a></li>\r\n\
+      \t\t\t<li><a href=\"http://facilities.taic.net\">Facilities Management</a></li> \r\n\
+      \t\t\t<li><a href=\"http://www.taic-acquisition.net\">Federal & DoD Acquisition Management</a></li>\r\n\
+      \t\t\t<li><a href=\"http://geospatial.taic.net\">Geospatial Solution Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-it.net\">IT / Network Services </a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-strategy.net\">Management/Strategic Consulting</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-business.net\">Mission Oriented Business Integrated Services</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-operations.net\">Operatons Center Design, Engineering & Support</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-security.net\">Security Operations</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-sams.net\">Strategic Asset Management</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-supplychain.net\">Strategy & Supply Chain Management</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-systems.net\">Systems Engineering</a></li>\r\n\
+      \t\t\t<li><a href=\"http://telecom.taic.net\">Telecom Infrastructure</a></li>\r\n\
+      \t\t\t<li><a href=\"http://www.taic-wireless.net\">Wireless Communications</a></li>\r\n\
+      \t\t</ul>\r\n\
+      \t<!--[if lte IE 6]></td></tr></table></a><![endif]-->\r\n\
+      \t</li>\r\n\
+      \t<li><a class=\"sub\" href=\"http://www.taic.net/index.php/careers/\"><b>CAREERS</b><!--[if gte IE 7]><!--></a><!--<![endif]-->\r\n\
+      \t<!--[if lte IE 6]><table><tr><td><![endif]-->\r\n\
+      \t\t<ul class=\"sub3\" style=\"width:150px;\">\r\n\
+      \t\t\t<li><a href=\"/epostings/submit.cfm?company_id=16053&version=1\" target=\"_blank\" style=\"width:150px;\">Job Openings</a></li>\r\n\
+      \t\t</ul>\r\n\
+      \t<!--[if lte IE 6]></td></tr></table></a><![endif]-->\r\n\
+      \t</li>\r\n\
+      </ul>\r\n\
+      </div>\r\n\
+      </div>\r\n \r\n\
+      \t<div id=\"branding\">\r\n\
+      \t\t<a class=\"taics\" href=\"http://www.taic.net/\">A Division of Technology Associates International Corporation</a>\r\n\
+      \t</div>\r\n\
+      <!--  PAGE HEADER END  -->\r\n\
+      \r\n\
+      \r\n\
+      \t<div id=\"content\">\r\n\
+      \r\n\
+      <!--  BREADCRUMB BEGIN -->\r\n\
+      \r\n\
+      \t<div id=\"breadcrumb\">\r\n\
+      \t\t\t\t<a href=\"http://www.taic.net/index.php\">Home</a>\r\n                &nbsp;/&nbsp;\r\n                <a href=\"http://www.taic.net/index.php/careers/\">Careers</a>\r\n                &nbsp;/&nbsp;\r\n                Job Openings\r\n    </div>\r\n\
+      \r\n\
+      <!--  BREADCRUMB END -->\r\n\
+      \r\n\
+      <!--  LEFT COLUMN BEGIN  -->\r\n\
+      \r\n\
+      \t<div id=\"col-1\">\r\n    <div id=\"subnav\">\r\n\
+      \r\n\
+      <!--  JOB LISTING CATEGORIES BEGIN -->\r\n        <div><h3>Current Job Listings</h3></div>\r\n        <div><br />\r\n          <ul>\r\n\
+      \t\t    <li><a href=\"/epostings/submit.cfm?company_id=16053&version=1\">Job Openings Home</a></li>\r\n            <li><a href=\"/epostings/submit.cfm?fuseaction=app.allpositions&company_id=16053&version=1\">All Posted Jobs</a></li>\r\n          </ul>\r\n        </div>\r\n\
+      <!--  JOB LISTING CATEGORIES END -->\r\n\
+      \r\n\
+      <!--  CONTACT INFO BEGIN -->\r\n    <hr>\r\n        <h2>Contact Us</h2>\r\n        <p><strong>Need more information?</strong></p>\r\n        <p>\r\n            Phone:(760) 603-1195<br />\r\n            <!--e-mail: <a href=\"mailto:jobs@taic.net?Subject=Careers @ TAIC Inquiry\">jobs@taic.net</a>-->\r\n        </p>\r\n\
+      \r\n\
+      <!--  CONTACT INFO END -->\r\n\
+      \r\n    </div>\r\n\
+      \t</div>\r\n\
+      \r\n\
+      <!--  LEFT COLUMN END  -->\r\n\
+      \r\n\
+      <!--  RIGHT COLUMN BEGIN  -->\r\n\
+      \r\n\
+      <div id=\"col-2\">\r\n\
+      \t\t<h2>Job Openings </h2>\r\n        <br />\r\n      <div>\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      <script type=\"text/javascript\">\r\n\
+      /* <![CDATA[ */\r\n\
+      function URLReplacePlus(strIn) {\r\n\
+      \tvar a = \"+\";\r\n\
+      \tvar b = \"%43\";\r\n\
+      \tvar c = strIn;\r\n\
+      \tvar i = c.indexOf(a);\r\n\
+      \tvar l = b.length;\r\n\
+      \twhile (i != -1) { c = c.substring(0,i) + b + c.substring(i + a.length,c.length); i = c.indexOf(a,i); }\r\n\
+      \treturn c;\r\n\
+      }\r\n\
+      \r\n\
+      function emailFriend()\r\n\
+      {\r\n\
+      \tvar loc, coname, jobtitle;\r\n\
+      \tconame=document.applyjob.companyname.value;\r\n\
+      \tconame=URLReplacePlus(coname);\r\n\
+      \tconame=escape(coname);\r\n\
+      \tjobtitle=document.applyjob.job_title.value;\r\n\
+      \tjobtitle=URLReplacePlus(jobtitle);\r\n\
+      \tjobtitle=escape(jobtitle);\r\n\
+      \r\n\
+      \tvar applyJob = document.getElementById(\"applyJob\");\r\n\
+      \tvar jobid = applyJob.jobid.value;\r\n\
+      \tvar source = applyJob.source.value;\r\n\
+      \tvar jobOwner = applyJob.JobOwner.value;\r\n\
+      \tvar version = applyJob.version.value;\r\n\
+      \r\n\
+      \tvar jobAttrib = \"jobid=\" + jobid + \"&source=\" + source + \"&jobOwner=\" + jobOwner;\r\n\
+      \r\n\
+      \tloc = \"http://taic.silkroad.com/epostings/submit.cfm?fuseaction=app.mailform&company_id=16053&companyname=\"+coname+\"&job_title=\"+jobtitle+\"&version=1&server=taic.silkroad.com&mapping=/epostings/&showtemp=0&\" + jobAttrib;\r\n\
+      \r\n\
+      \twindow.open(loc,\"emform\",\"resizable=yes,scrollbars=yes,width=650,height=400\");\r\n\
+      }\r\n\
+      /* ]]> */\r\n\
+      </script>\r\n\
+      \r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\t<form id=\"applyJob\" method=\"post\" action=\"index.cfm?fuseaction=app.newsubmission\">\r\n\
+      \t\t\t\r\n\
+      \t\t\t<input type=\"hidden\" name=\"submissiontype\" value=\"4\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"previewedit\" value=\"1\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"altsource\" value=\"0\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"jobid\" value=\"217392\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"job_title\" value=\"IT Support Specialist (2011392)\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"JobOwner\" value=\"992315\" />\r\n\
+      \t\t\t\r\n\
+      \t\t\t<input type=\"hidden\" name=\"source\" value=\"ONLINE\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"company_id\" value=\"16053\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"companyname\" value=\"Technology Associates International\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"version\" value=\"1\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"location_id\" value=\"29357\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"resumetype\" value=\"0\" />\r\n\
+      \t\t\t<input type=\"hidden\" name=\"backaction\" value=\"fuseaction=app.jobinfo&company_id=16053&bylocation=bylocation&bystate=0&JobOwner=992315&byCat=byCat&byBusinessUnit=NULL&jobid=217392&tosearch=yes&keywords=keywords&bycountry=0&source=ONLINE\" />\r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \t\t\t\t<p id=\"jobTitleDiv\" class=\"cssDspJobTitle\">\r\n\
+      \t\t\t\t\tIT Support Specialist\r\n\
+      \t\t\t\t</p>\r\n\
+      \t\t\t\r\n\
+      \t\t\t<dl>\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t<dt id=\"trackCodeDiv\" class=\"cssDspJobHead\">\r\n\
+      \t\t\t\t\t\tTracking Code\r\n\
+      \t\t\t\t\t</dt>\r\n\
+      \t\t\t\t\t<dd id=\"jobCodeDiv\" class=\"cssDspJobBody\">\r\n\
+      \t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t2011392\r\n\
+      \t\t\t\t\t\t\r\n\
+      \t\t\t\t\t</dd>\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t<dt id=\"dspJobTxtDescDiv\" class=\"cssDspJobHead\">\r\n\
+      \t\t\t\t\t\tJob Description\r\n\
+      \t\t\t\t\t</dt>\r\n\
+      \t\t\t\t\t<dd id=\"jobDesciptionDiv\" class=\"cssDspJobBody\">\r\n\
+      \t\t\t\t\t\t<p>Technology Associates is a technical, professional services company providing state-of-the-art solutions to government and commercial clients. Our services include custom-engineered solutions that integrate with the latest technology, resulting in advanced information technology systems; business and management consulting services to assess client needs and reengineer processes; and strategic and tactical program expertise to support continuity and provide comprehensive oversight for mission-critical initiatives.</p>\r\n\
+      <p>Technology Associates partners with government and commercial agencies that require development of systems, such as communication systems, asset management, network deployment and engineering services, power and energy management solutions, portal applications, command and control, and geospatial information systems (GIS) to operate more efficiently and profitably.</p>\r\n\
+      <p>Under limited supervision, responsible for the resolution of multiple problems/issues arising from a suite of applications to multiple sets of desktop and laptop configuration and operating system versions.\xC2\xA0</p>\r\n\
+      <ul>\r\n\
+      <li>Analyze configuration issues and develop solutions to individual end-user problems.\xC2\xA0</li>\r\n\
+      <li>Resolve end-user requests through the analysis of database implementation and integration issues.\xC2\xA0</li>\r\n\
+      <li>Maintain passwords, data integrity and file system security for the desktop/laptop environment.\xC2\xA0</li>\r\n\
+      <li>Communicate technical information to both technical and non-technical personnel.\xC2\xA0</li>\r\n\
+      <li>Assist with the recommendation of hardware and software solutions.\xC2\xA0</li>\r\n\
+      <li>Perform other duties as required.\xC2\xA0\xC2\xA0\xC2\xA0</li>\r\n\
+      </ul>\r\n\
+      <ul>\r\n\
+      <li>Associate\xE2\x80\x99s degree or equivalent experience\xC2\xA0</li>\r\n\
+      <li>Two \xE2\x80\x93Five years desktop systems support experience\xC2\xA0</li>\r\n\
+      <li>A+ /Net+/ Sec+ Certification\xC2\xA0</li>\r\n\
+      <li>Microsoft Certified Professional highly desired\xC2\xA0</li>\r\n\
+      <li>ITIL V3 Foundations Certified highly desired</li>\r\n\
+      <li>Knowledge of and experience with PC hardware, HP Open View, Remedy Action Request System, NT User Manager for Domains, MS Active Directory, Exchange 2003 and subsequent versions of messaging services, MS 2000 and 2003 Server Administrator, network infrastructure, Windows 2000, XP, Vista, MS Office 2000, 2003 and 2007, desktop and network operating systems and the Air Force Standard Desktop Configuration (SDC) including MS Outlook\xC2\xA0</li>\r\n\
+      <li>Ability to resolve difficult problems within the assistance of senior support or the use of outside software analysis support\xC2\xA0</li>\r\n\
+      <li>Professional written and verbal communication skills\xC2\xA0</li>\r\n\
+      <li>Advanced analytical and problem solving skills\xC2\xA0</li>\r\n\
+      <li>Customer service skills and/or strong interpersonal skills\xC2\xA0</li>\r\n\
+      <li>Ability to work independently or in a team environment\xC2\xA0</li>\r\n\
+      <li>Able to obtain and maintain a Secret security clearance\xC2\xA0</li>\r\n\
+      <li>Have and maintain a valid state Driver's License\xC2\xA0</li>\r\n\
+      <li>Able to lift 25 lbs</li>\r\n\
+      </ul>\r\n\
+      <p><em>Candidates will be subject to a government background investigation and must meet eligibility criteria for access to classified information. US Citizenship is required. </em></p>\r\n\
+      <p><strong>AN EQUAL OPPORTUNITY EMPLOYER\xC2\xA0</strong><br />All employment decisions are made without regard to race, color, religion, sex, sexual orientation, national origin, age, creed, ancestry, marital status, non-job-related handicap or disability, veteran status, or any other legally protected status.</p>\r\n\
+      \t\t\t\t\t</dd>\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t<dt id=\"dspJobTxtJobLocDiv\" class=\"cssDspJobHead\">\r\n\
+      \t\t\t\t\t\tJob Location\r\n\
+      \t\t\t\t\t</dt>\r\n\
+      \t\t\t\t\t<dd id=\"jobPositionLocationDiv\" class=\"cssDspJobBody\">\r\n\
+      \t\t\t\t\t\tMidwest City, OK US\r\n\
+      \t\t\t\t\t</dd>\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t<dt id=\"dspJobTxtPosTypeDiv\" class=\"cssDspJobHead\">\r\n\
+      \t\t\t\t\t\tPosition Type\r\n\
+      \t\t\t\t\t</dt>\r\n\
+      \t\t\t\t\t<dd id=\"translatedJobPostingTypeDiv\" class=\"cssDspJobBody\">\r\n\
+      \t\t\t\t\t\tFull-Time/Regular\r\n\
+      \t\t\t\t\t</dd>\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t</dl>\r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \t\t\t\r\n\
+      \t\t\t<div class=\"footerActionBar\">\r\n\
+      \t\t\t\t<div id=\"applyBubble\" class=\"actionBubble\">\r\n\
+      \t\t\t\t\t<div class=\"actionBubble-header\">\r\n\
+      \t\t\t\t\t\t<h4>\r\n\
+      \t\t\t\t\t\t\tApply\r\n\
+      \t\t\t\t\t\t</h4>\r\n\
+      \t\t\t\t\t</div>\r\n\
+      \t\t\t\t\t<div class=\"actionBubble-content\">\r\n\
+      \t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t<input type=\"button\" class=\"ui-form-field-button\" id=\"newResumeButton\" value=\"New Resume/CV\" onclick=\"document.getElementById('applyJob').submit();\" />\r\n\
+      \t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\t\t<br />\r\n\
+      \t\t\t\t\t\t\t\t<br />\r\n\
+      \t\t\t\t\t\t\t\t<input type=\"button\" class=\"ui-form-field-button\" id=\"existingResumeButton\" value=\"Existing Resume/CV\" onclick=\"window.location='submit.cfm?fuseaction=app.res_login&amp;id=23&amp;jobid=217392&amp;company_id=16053&amp;version=1&amp;jobowner=992315&amp;aid=0&amp;fid=0&amp;bystate=0&amp;bylocation=&amp;bycountry=0&amp;bycat=&amp;keywords='\" />\r\n\
+      \t\t\t\t\t\t\t\r\n\
+      \t\t\t\t\t\t\r\n\
+      \t\t\t\t\t</div>\r\n\
+      \t\t\t\t</div>\r\n\
+      \t\t\t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t\t\t<div id=\"shareBubble\" class=\"actionBubble\">\r\n\
+      \t\t\t\t\t\t<div class=\"actionBubble-header\">\r\n\
+      \t\t\t\t\t\t\t<h4>\r\n\
+      \t\t\t\t\t\t\t\tShare\r\n\
+      \t\t\t\t\t\t\t</h4>\r\n\
+      \t\t\t\t\t\t</div>\r\n\
+      \t\t\t\t\t\t<div class=\"actionBubble-content\">\r\n\
+      \t\t\t\t\t\t\t<!-- AddThis Button BEGIN -->\r\n\
+      \t\t\t\t\t\t\t<div class=\"addthis_toolbox addthis_default_style\" addthis:url=\"https://taic.silkroad.com/epostings/index.cfm?fuseaction=app.jobinfo&amp;jobid=217392&amp;version=1\" addthis:title=\"Technology Associates International - IT Support Specialist\">\r\n\
+      \t\t\t\t\t\t\t\t<a class=\"addthis_button_linkedin\">\r\n\
+      \t\t\t\t\t\t\t\t</a>\r\n\
+      \t\t\t\t\t\t\t\t<a class=\"addthis_button_facebook\">\r\n\
+      \t\t\t\t\t\t\t\t</a>\r\n\
+      \t\t\t\t\t\t\t\t<a class=\"addthis_button_twitter\">\r\n\
+      \t\t\t\t\t\t\t\t</a>\r\n\
+      \t\t\t\t\t\t\t\t<a class=\"addthis_button_email\">\r\n\
+      \t\t\t\t\t\t\t\t</a>\r\n\
+      \t\t\t\t\t\t\t\t<a class=\"addthis_button_compact\">\r\n\
+      \t\t\t\t\t\t\t\t</a>\r\n\
+      \t\t\t\t\t\t\t</div>\r\n\
+      \t\t\t\t\t\t\t<script type=\"text/javascript\" src=\"https://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d34add83780e935\"></script>\r\n\
+      \t\t\t\t\t\t\t<!-- AddThis Button END -->\r\n\
+      \t\t\t\t\t\t</div>\r\n\
+      \t\t\t\t\t</div>\r\n\
+      \t\t\t\t\r\n\
+      \t\t\t</div>\r\n\
+      \t\t\t<div id=\"backPageButton1Div\" class=\"cssDspJobHead\">\r\n\
+      \t\t\t\t<a id=\"returnLink\" href=\"/epostings/submit.cfm?fuseaction=app.jobsearch&company_id=16053&version=1&tosearch=yes&keywords=&bycountry=0&bystate=0&bylocation=&byCat=&startflag=0\">\r\n\
+      \t\t\t\t\tReturn to Search Results\r\n\
+      \t\t\t\t</a>\r\n\
+      \t\t\t\t<input type=\"hidden\" name=\"returnParm\" value=\"/epostings/submit.cfm?fuseaction=app.jobsearch&company_id=16053&version=1&tosearch=yes&keywords=&bycountry=0&bystate=0&bylocation=&byCat=&startflag=0\" />\r\n\
+      \t\t\t</div>\r\n\
+      \t\t</form>\r\n\
+      \t\r\n\
+      \r\n\
+      <br />\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \r\n\
+      \t\r\n\
+      \t\r\n\
+      \t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\r\n\
+      \r\n\
+      \r\n\
+      \r\n\
+      \t\r\n\
+      \t\t<br>\r\n\
+      \t\t</div>\r\n      </div>\r\n\
+      \r\n\
+      <!--  RIGHT COLUMN END  -->\r\n\
+      \t</div>\r\n    \r\n\
+      <!--  FOOTER BEGIN -->\r\n\
+      \t<div id=\"footer\">\r\n\
+      \t\t<p><big><strong>Technology Associates</strong> International Corporation</big><br />\r\n\
+      \t\t\t&copy; 2007-2009 Technology Associates. All Rights Reserved</p>\r\n\
+      \t\t<p><a href=\"http://www.taic.net/\">TAIC Home Page</a> | <a href=\"http://www.taic.net/index.php/site/static/site-map/\"}\">Site Map</a> | <a href=\"http://www.taic.net/index.php/site/static/web-privacy-statement/\">Web Privacy Statement</a> | <a href=\"http://www.taic.net/index.php/about-us/contact-us/\">Contact Us</a></p>\r\n\
+      \t</div>\r\n\
+      <!--  FOOTER BEGIN -->\r\n\
+      \r\n\
+      </div>\r\n\
+      </body>\r\n\
+      </html>\r\n\
+      \t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \r\n\
+      \t\t\r\n\
+      \t\t\r\n\
+      \t\t<!--\r\n\
+      \t\tBrowser Locale: en_US\r\n\
+      \t\tSite Default Locale: en_US\r\n\
+      \t\tisSupportedLocale: Yes\r\n\
+      \t\tisPortalSupportedLocale: Yes\r\n\
+      \t\tdetermineSupportedLocale: en_US\r\n\
+      \t\tdeterminePortalSupportedLocale: en_US\r\n\
+      \t\tlocaleSupportedID: 2\r\n\
+      \t\t\r\n\
+      \t\tSession Locale: {\"GOVERNMENTIDREGEX\":\"\",\"TRANSLATELOCALECODE\":\"en_US\",\"FORMATLOCALEID\":324,\"LOCALECODE\":\"en_US\",\"PHONEREGEX\":\"^([+])?([1]( |-|\\\\.)?)?(\\\\(?[1-9]{1}[0-9]{2}\\\\)?|[1-9]{1}[0-9]{2})( |-|\\\\.)?([0-9]{3}( |-|\\\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$\",\"LOCALEID\":324,\"FORMATLOCALECODE\":\"en_US\",\"LOCALESUPPORTEDID\":2,\"POSTALADDRESSXSLT\":\"<xsl:stylesheet xmlns:xsl=\\\"http:\\/\\/www.w3.org\\/1999\\/XSL\\/Transform\\\" version=\\\"1.0\\\"><xsl:template match=\\\"\\/PostalAddress\\\"><div class=\\\"ui-PostalAddress\\\"><xsl:if test=\\\"Recipient\\/PersonName\\/FormattedName != ''\\\"><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-FormattedName\\\"><xsl:value-of select=\\\"Recipient\\/PersonName\\/FormattedName\\\"\\/><\\/span><\\/div><\\/xsl:if><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-StreetName\\\"><xsl:value-of select=\\\"DeliveryAddress\\/StreetName\\\"\\/><\\/span><xsl:if test=\\\"DeliveryAddress\\/AddressLine != ''\\\"><span class=\\\"ui-PostalAddress-AddressLine\\\"><xsl:value-of select=\\\"DeliveryAddress\\/AddressLine\\\"\\/><\\/span><\\/xsl:if><\\/div><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-Municipality\\\"><xsl:value-of select=\\\"Municipality\\\"\\/><\\/span>,\\n\\t\\t      <span class=\\\"ui-PostalAddress-Region\\\"><xsl:value-of select=\\\"Region\\\"\\/><\\/span>\xC2\xA0\\n\\t\\t\\t  <span class=\\\"ui-PostalAddress-PostalCode\\\"><xsl:value-of select=\\\"PostalCode\\\"\\/><\\/span><\\/div><xsl:if test=\\\"CountryCode != ''\\\"><div class=\\\"ui-PostalAddress-Row\\\"><span class=\\\"ui-PostalAddress-CountryCode\\\"><xsl:value-of select=\\\"CountryCode\\\"\\/><\\/span><\\/div><\\/xsl:if><\\/div><\\/xsl:template><\\/xsl:stylesheet>\",\"POSTALCODEREGEX\":\"^\\\\d{5}([\\\\-]\\\\d{4})?$\",\"TRANSLATELOCALEID\":324}\r\n\
+      \t\t-->\r\n\
+      \t"
+    http_version: "1.1"
