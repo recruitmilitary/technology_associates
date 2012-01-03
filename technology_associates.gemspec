@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Michael Guterl"]
   s.email       = ["michael@diminishing.org"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Ruby API wrapper for Technology Associates' Jobs}
+  s.description = %q{Ruby API wrapper for Technology Associates' Jobs, uses Nokogiri for scraping}
 
   s.rubyforge_project = "technology_associates"
 
